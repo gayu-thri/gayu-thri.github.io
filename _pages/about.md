@@ -14,5 +14,5 @@ Life is a constant struggle between being a member of the community and standing
 
 Contact Me
 ------
-Personal email : ethiraj at usc dot edu
+Personal email : ethiraj at usc dot edu<br>
 Phone Number : +1(332)201-2580
