@@ -13,7 +13,7 @@ name                     : &name "Rahul Ethiraj"
 description              : &description "Computer Science graduate student at University of Southern California. Seeking summer 2019 full time/co-op/internships."
 url                      : https://raethira.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "raethira.github.io"
+repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
