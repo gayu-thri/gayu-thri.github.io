@@ -1,0 +1,11 @@
+---
+layout: archive
+title: "More on me"
+permalink: /history/
+author_profile: true
+---
+
+
+{% for post in site.history reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
