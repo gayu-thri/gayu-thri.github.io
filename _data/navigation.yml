@@ -3,7 +3,7 @@ main:
   - title: "History"
     url: /history/
   
-  - title: "Publications"
+  - title: "Projects"
     url: /publications/
 
   - title: "Talks"
@@ -18,3 +18,5 @@ main:
   - title: "CV"
     url: /cv/
     
+  - title: "Personal"
+    url: /personal/  
