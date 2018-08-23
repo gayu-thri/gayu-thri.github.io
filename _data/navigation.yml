@@ -9,9 +9,6 @@ main:
   - title: "Industry"
     url: /industry/    
 
-  - title: "Teaching"
-    url: /teaching/    
-    
   - title: "CV"
     url: /cv/
     
