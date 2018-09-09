@@ -103,7 +103,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  steam            : "raethira"
   tumblr           :
   twitter          : "RahulFindme"
   vine             :
@@ -115,7 +115,7 @@ author:
 
 # Reading Files
 include:
-  - .htaccess
+  - .s
   - _pages
   - files
 exclude:
