@@ -251,7 +251,7 @@ gained. Wavelet Transform tool were used to extract features from images.
 			<li>
 				<h3><a target="_blank" href="https://github.com/raethira/Gender-Transformation-using-Adversarial-Networks">Classification of USC Department of Public Safety(DPS) incidents log </a></h3>
 					Cleaned and processed DPS records to classify each incident on a scale of 1-5 based on the level of danger.       
-					<b>Classifiers:</b> Bag of Words, Multinomial Naive Bayes and Support Vector based on TF-IDF scores, LSTM Recurrent Neural Networks.
+					</br><b>Classifiers:</b> Bag of Words, Multinomial Naive Bayes and Support Vector based on TF-IDF scores, LSTM Recurrent Neural Networks.
 				<ul>
 					<li>
 						<a target="_blank" href="https://github.com/raethira/NLP-classification/tree/master/all%20final%20files">Code</a>
@@ -268,28 +268,136 @@ gained. Wavelet Transform tool were used to extract features from images.
 		
 		<a href="https://github.com/raethira/Web-Technologies" target="_blank"><h3><u>Information Retrieval and Web Search Engines</u> :</h3></a>
 		<ul>
+		
+		
 			<li>
-				<h3><a target="_blank" href="https://github.com/raethira/Web-Technologies/tree/master/HW09">Comparing Search Engine Results</a></h3>
+				<h3><a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/tree/master/HW5">LA times News Search Engine  </a></h3>
+				
+				Devised a search engine to search through 15000 news webpages.  
+				PageRank and TF-IDF weighting have been used to rank different search results retrieved from Solr, having features such as spell checking, 
+				auto complete and snippets.
+				
+				<br><b>Technologies:</b> Java, PHP, Javascript, Python, jQuery, Apache Solr, Lucene, jSoup 
+				
+				
+				<ul>
+				
+					<li>
+						<a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/blob/master/HW5/hw5/search.php">Code</a>
+					</li>
+					
+					
+					<li>
+						<a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/blob/master/HW5/hw5/Report.pdf">Report</a>
+					</li>
+					
+				</ul>
+				
+			</li>
+			
+			
+			
+		
+		
+			<li>
+				<h3><a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/tree/master/HW4">Indexing the Web Using Solr </a></h3>
+				
+				Using a web server, I created a web page with a text box which a user can retrieve and
+				then enter a query. The user’s query will be processed by a program at the web server which formats
+				the query and sends it to Solr. Solr will process the query and return some results in JSON format. A
+				program on the web server will re-format the results and present them to the user as any search engine
+				would do. Results are clickable (i.e. open the actual web page on the internet). 
+				
+				<br><b>Technologies:</b> PHP, NetworkX library, Solr, Lucene, PageRank
+				
+				
+				<ul>
+				
+					<li>
+						<a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/blob/master/HW4/SOlution/rahul.php">Code</a>
+					</li>
+					
+					
+					<li>
+						<a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/blob/master/HW4/SOlution/HW4_report.pdf">Report</a>
+					</li>
+					
+					
+					<li>
+						<a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/blob/master/HW4/SOlution/external_pageRankFile.txt">PageRank File</a>
+					</li>
+					
+					
+				</ul>
+				
+			</li>
+			
+		
+			<li>
+				<h3><a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/tree/master/HW3">Creating an Inverted Index Using a Hadoop Cluster </a></h3>
+				
+				 Creating an Inverted Index of words occurring in a set of web pages and hands-on experience in GCP App Engine using MapReduce.
+
+				<ul>
+				
+					<li>
+						<a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/blob/master/HW3/Solution/index.txt">Inverted Index</a>
+					</li>
+					
+					
+					<li>
+						<a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/blob/master/HW3/Solution/Index.java">Inverted Index code</a>
+					</li>
+					
+					
+				</ul>
+				
+			</li>
+			
+			<li>
+				<h3><a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/tree/master/HW2">Web Crawling </a></h3>
+				
+				 A simple web crawler to measure aspects of a crawl, study the
+				characteristics of the crawl, download web pages from the crawl and gather webpage metadata, all
+				from pre-selected news websites.
+				<ul>
+					<li>
+						<a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/blob/master/HW2/Solution/crawl1/src/MyCrawler.java">Crawler code</a>
+					</li>
+					
+					<li>
+						<a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/blob/master/HW2/Solution/crawl1/CrawlReport_nytimes.txt.txt">Report</a>
+					</li>
+					
+				</ul>
+				
+			</li>
+			
+		
+		
+			<li>
+				<h3><a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/tree/master/HW1">Comparing Search Engine Results</a></h3>
 				
 				This exercise is about comparing the search results from Google versus Bing, the two leading US search
-engines. Many search engine comparison studies have been done. All of them use samples of data,
-some small and some large, so no general conclusions can be drawn. But it is always instructive to see
-how the two search engines match up, even on a small data set.
-I followed the process of issuing a set of queries and to evaluate the returned results for relevance.
-These studies do not seek to answer the ultimate question of which search engine is “best”. Rather we
-stick to more modest research questions which are:
-- which search engine performs best when considering the first five results for a given query?
+				engines. Many search engine comparison studies have been done. All of them use samples of data,
+				some small and some large, so no general conclusions can be drawn. But it is always instructive to see
+				how the two search engines match up, even on a small data set.
+				I followed the process of issuing a set of queries and to evaluate the returned results for relevance.
+				These studies do not seek to answer the ultimate question of which search engine is “best”. Rather we
+				stick to more modest research questions which are:
+				</br>- Which search engine performs best when considering the first five results for a given query?
 
 
 				<ul>
 					<li>
 						<a target="_blank" href="https://github.com/raethira/CSCI-572-Information-Retrieval/blob/master/HW1/Solution/ethiraj.xlsx">Comparison chart</a>
 					</li>
-					<
+					
 				</ul>
-				
-				
 			</li>
+			
+			
+			
 			
 		</ul>	
 		
