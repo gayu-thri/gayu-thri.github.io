@@ -17,4 +17,3 @@ I have a wide range of goals, interests and hobbies that allow me to socialize w
 Contact Me
 ------
 Email&nbsp;&nbsp;&nbsp;: ethiraj@usc.edu<br>
-Phone : +1(332)201-2580
