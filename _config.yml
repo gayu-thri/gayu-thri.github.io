@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "My Personal Website"
 title_separator          : "-"
-name                     : &name "Rahul Ethiraj"
-description              : &description "Computer Science graduate student at University of Southern California.  Actively seeking full time opportunities starting December 2019"
+name                     : &name "Gayathri Ethiraj"
+description              : &description "Computer Science undergraduate student at Amrita University, Coimbatore"
 url                      : https://raethira.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "raethira/.github.io"
+repository               : "gayu-thri/.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -79,33 +79,33 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rahul Ethiraj"
+  name             : "Gayathri Ethiraj"
   avatar           : "profile.jpg"
-  bio              : "Software Engineer at Amazon"
-  location         : "Palo Alto, CA"
+  bio              : "Computer Science undergraduate student at Amrita University, Coimbatore"
+  location         : "Chennai"
   #employer         :
   #googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "ethiraj@usc.edu"
+  email            : "egayu3@gmail.com"
   #uri              :
   #bitbucket        :
   #codepen          :
   #dribbble         :
   #flickr           :
-  facebook         : "rahul.findmehere"
+  facebook         : "gayathri.ethiraj22"
   #foursquare       :
-  github           : "raethira"
+  github           : "gayu-thri"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "gayu_thri"
   lastfm           :
   linkedin         : "raethira"
   #orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            : "raethira"
+  steam            : "gaethira"
   tumblr           :
-  twitter          : "RahulFindme"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
