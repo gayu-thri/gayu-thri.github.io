@@ -10,7 +10,7 @@ main:
     url: /industry/    
 
   - title: "Resume"
-    url: /resume/
+    url: /cv/
     
   - title: "Personal"
     url: /personal/  
