@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-A Jack-of-all-trades with a Masters in Computer Science and emphasis on Data Science and Computer Networks.
+An undergraduate student pursuing B.Tech. in Computer Science and emphasising on Computer Networks.
  
-Life is a constant struggle between being a member of the community and standing out as an individual. I find a balance between both. I am not big on introductions because actions speak louder and I believe people should work until they no longer have to introduce themselves.
+Life is too short for regrets, so I believe in having no regrets and just learning our lessons. All our actions and decisions have its own consequences which brings us either joy or misery. But each experience no matter how profound, enriches us with lessons we should learn and improve up on. 
 
-I have a wide range of goals, interests and hobbies that allow me to socialize well and fit even with in a diverse group of people. Owing to my industry experience, I have refined my critical thinking and analytical skills, learnt how to effectively meet deadlines, balance priorities while working alone or within a team and work with diverse groups of people to complete assigned projects and tasks. I pride myself on being a fast learner willing to innovate, propose process improvement, contribute to a fast-growing team and take responsibility for my work.
+I have a wide range of goals, interests and hobbies that allow me to socialize well and fit even with in a diverse group of people. I have experience of working in PHP, MySQL, HTML5, CSS, Python, Flask, Selenium. Also, I'm a CCNA certified student with hands-on experience in routing and switching methods and communication networks. I also have a great interest in making digital arts.
 
 Contact Me
 ------
-Email&nbsp;&nbsp;&nbsp;: ethiraj@usc.edu<br>
+Email&nbsp;&nbsp;&nbsp;: cb.en.u4cse1420@cb.students.amrita.edu | egayu3@gmail.com <br>
