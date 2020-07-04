@@ -16,4 +16,4 @@ I have a wide range of goals, interests and hobbies that allow me to socialize w
 
 Contact Me
 ------
-Email&nbsp;&nbsp;&nbsp;: cb.en.u4cse1420@cb.students.amrita.edu | egayu3@gmail.com <br>
+Email&nbsp;&nbsp;&nbsp;: [cb.en.u4cse1420@cb.students.amrita.edu](mailto:cb.en.u4cse1420@cb.students.amrita.edu) | [egayu3@gmail.com](mailto:egayu3@gmail.com) <br>
