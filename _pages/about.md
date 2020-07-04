@@ -13,7 +13,7 @@ An undergraduate student pursuing B.Tech. in Computer Science and emphasising on
 Life is too short for regrets, so I believe in having no regrets and just learning our lessons. All our actions and decisions have its own consequences which brings us either joy or misery. But each experience no matter how profound, enriches us with lessons we should learn and improve up on. 
 
 I have a wide range of goals, interests and hobbies that allow me to socialize well and fit even with in a diverse group of people. I have experience of working in PHP, MySQL, HTML5, CSS, Python, Flask, Selenium. Also, I'm a CCNA certified student with hands-on experience in routing and switching methods and communication networks. I also have a great interest in making digital arts and playing chess, tennis.
-[Click the image/text to check out my art page ](https://www.instagram.com/_g3rt__/)
+[Click here to check out my art page ](https://www.instagram.com/_g3rt__/)
 [![g3rt](https://github.com/gayu-thri/gayu-thri.github.io/blob/master/images/g3rtcropped.jpg?raw=true|80x60,25%)](https://www.instagram.com/_g3rt__/)
 
 Contact Me
