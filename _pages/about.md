@@ -14,7 +14,7 @@ Life is too short for regrets, so I strongly believe in having no regrets and ju
 
 I have a wide range of goals, interests and hobbies that allow me to socialize well and fit even with in a diverse group of people. I have experience of working in PHP, MySQL, HTML5, CSS, Python, Flask, Selenium. Also, I'm a CCNA certified student with hands-on experience in routing and switching methods and communication networks. I also have a great interest in making digital arts and playing chess, tennis.
 <br>
-[Click here to check out my art page ](https://www.instagram.com/_g3rt__/) <span style="font-size:100%;color:red;">&hearts;</span>
+[Click here to check out my art page ](https://www.instagram.com/_g3rt__/) <span style="font-size:150%;color:red;">&hearts;</span>
 
 <!-- 
 [![g3rt](https://github.com/gayu-thri/gayu-thri.github.io/blob/master/images/g3rtcropped.jpg?raw=true|80x60,25%)](https://www.instagram.com/_g3rt__/)
