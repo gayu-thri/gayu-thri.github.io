@@ -14,5 +14,7 @@ author_profile: true
 </li>
 </ul>
 
-
+{% for post in site.resume %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
 
