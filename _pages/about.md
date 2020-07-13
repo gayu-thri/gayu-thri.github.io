@@ -19,7 +19,11 @@ I have a wide range of goals, interests and hobbies that allow me to socialize w
 <!-- 
 [![g3rt](https://github.com/gayu-thri/gayu-thri.github.io/blob/master/images/g3rtcropped.jpg?raw=true|80x60,25%)](https://www.instagram.com/_g3rt__/)
 -->
-
+Resume
+------
+[Click here to download my resume](https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/Gayathri%20E%20-%20Resume.pdf)
+<br>
+------
 Contact Me
 ------
 Email&nbsp;&nbsp;&nbsp;: [cb.en.u4cse1420@cb.students.amrita.edu](mailto:cb.en.u4cse1420@cb.students.amrita.edu) | [egayu3@gmail.com](mailto:egayu3@gmail.com) <br>
