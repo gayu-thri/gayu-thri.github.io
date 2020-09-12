@@ -4,7 +4,7 @@ main:
     url: /history/
   
   - title: "Projects"
-    url: /projects/
+    url: /project/
 
   - title: "Industry"
     url: /industry/    
