@@ -21,7 +21,7 @@ I have a wide range of goals, interests and hobbies that allow me to socialize w
 -->
 Resume
 ------
-My latest resume has been attached for download. [Click here](https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/Gayathri%20E%20-%20Resume.pdf)
+My latest resume has been attached for download. [Click here](https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/GayathriE-Resume.pdf)
 <br>
 
 Contact Me
