@@ -26,4 +26,4 @@ My latest resume has been attached for download. [__Click here__](https://github
 
 Contact Me
 ------
-Email&nbsp;&nbsp;&nbsp;: [__cb.en.u4cse1420@cb.students.amrita.edu__](mailto:cb.en.u4cse1420@cb.students.amrita.edu) | [__egayu3@gmail.com__](mailto:egayu3@gmail.com) <br>
+Email&nbsp;&nbsp;&nbsp;: [cb.en.u4cse1420@cb.students.amrita.edu](mailto:cb.en.u4cse1420@cb.students.amrita.edu) | [egayu3@gmail.com](mailto:egayu3@gmail.com) <br>
