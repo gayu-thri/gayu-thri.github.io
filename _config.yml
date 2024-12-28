@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "My Personal Website"
 title_separator          : "-"
 name                     : &name "Gayathri Ethiraj"
-description              : &description "LLM at Zoho Corporation | Undergraduate in Computer Science at Amrita School of Engineering, Coimbatore"
+description              : &description "LLM at Zoho Corporation | Undergraduate in Computer Science at Amrita University, Coimbatore"
 url                      : https://gayu-thri.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gayu-thri.github.io"
@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Gayathri Ethiraj"
   avatar           : "gayu_profile.jpeg"
-  bio              : "LLM at Zoho Corporation | Undergraduate in Computer Science at Amrita School of Engineering, Coimbatore"
+  bio              : "LLM at Zoho Corporation | Undergraduate in Computer Science at Amrita University, Coimbatore"
   location         : "Chennai, Tamil Nadu"
   #employer         :
   #googlescholar    : "http://yourfullgooglescholarurl.com"
