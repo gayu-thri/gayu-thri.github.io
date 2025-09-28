@@ -14,10 +14,14 @@ In the LLM space, I’ve worked with HuggingFace APIs, built Streamlit apps for 
 
 I thrive at the intersection of data engineering, NLP, and model optimization, skilled in Python, PyTorch, HuggingFace, and adept at transforming raw data into high-quality training resources, designing scalable tools to accelerate research, and applying these resources to train and evaluate models for real-world impact.
 
-Beyond technology, I channel my creativity through digital art, sharpen my strategic thinking through chess, and stay energized with tennis. I thrive on exploring diverse interests, which helps me bring a unique perspective to problem-solving in AI and data science. Check out my art page [here](https://www.instagram.com/_g3rt__/) <span style="color:red;">&#10084;</span>.
-
 Currently, I’m expanding my skills through graduate coursework in algorithms, statistics, and machine learning, while looking for opportunities to contribute to AI-driven projects that make a real-world impact.
 
 Contact Me
 ------
 Email&nbsp;&nbsp;&nbsp;: [egayu3@gmail.com](mailto:egayu3@gmail.com)<br>
+
+Beyond Tech
+----
+I channel my creativity through digital art, sharpen my strategic thinking through chess, and stay energized with tennis. Check out my art page [here](https://www.instagram.com/_g3rt__/) <span style="color:red;">&#10084;</span>.
+
+I thrive on exploring diverse interests, which helps me bring a unique perspective to problem-solving in AI and data science. 
