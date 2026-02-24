@@ -9,172 +9,155 @@ redirect_from:
 ---
 
 <style>
+  body { color: #2c2c2c; }
+
   .about-intro {
-    font-size: 0.97em;
-    line-height: 1.85;
+    font-size: 0.96em;
+    line-height: 1.9;
     color: #333;
-    margin-bottom: 0.5em;
   }
 
-  .section-title {
-    font-size: 1.15em;
+  .section-label {
+    font-size: 0.72em;
     font-weight: 700;
-    margin-top: 2em;
-    margin-bottom: 0.8em;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 0.3em;
-    color: #2c3e50;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-top: 2.2em;
+    margin-bottom: 0.9em;
   }
 
-  .highlight-grid {
+  .focus-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 0.9em;
     margin-bottom: 1em;
   }
 
-  .highlight-card {
-    background: #f9f9f9;
-    border-radius: 10px;
+  .focus-card {
+    background: #fafafa;
+    border-radius: 8px;
     padding: 1em 1.2em;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-    border-left: 4px solid #3498DB;
-    font-size: 0.93em;
-    line-height: 1.75;
-    color: #444;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
   }
 
-  .highlight-card .card-title {
+  .focus-card .fc-title {
+    font-size: 0.82em;
     font-weight: 700;
-    color: #2c3e50;
-    margin-bottom: 0.3em;
-    font-size: 0.97em;
+    color: #1a1a1a;
+    margin-bottom: 0.4em;
+    letter-spacing: 0.01em;
   }
 
-  .skills-row {
+  .focus-card .fc-body {
+    font-size: 0.88em;
+    line-height: 1.7;
+    color: #555;
+  }
+
+  .tag-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5em;
-    margin: 0.8em 0;
+    gap: 0.4em;
+    margin-top: 0.4em;
   }
 
-  .skill-tag {
-    background: #e8f4fd;
-    color: #3498DB;
-    font-size: 0.82em;
-    font-weight: 600;
-    padding: 0.25em 0.75em;
-    border-radius: 20px;
+  .tag {
+    font-size: 0.78em;
+    color: #555;
+    background: #f0f0f0;
+    padding: 0.2em 0.6em;
+    border-radius: 4px;
   }
 
-  .contact-card {
-    background: #f9f9f9;
-    border-radius: 10px;
-    padding: 1em 1.2em;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-    border-left: 4px solid #3498DB;
-    font-size: 0.93em;
-    line-height: 1.9;
+  .contact-block {
+    font-size: 0.9em;
+    line-height: 2;
     color: #444;
   }
 
-  .contact-card a {
-    color: #3498DB;
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-  .contact-card a:hover {
+  .contact-block a {
+    color: #3a6fa8;
     text-decoration: underline;
+    text-underline-offset: 2px;
   }
 
-  .beyond-card {
-    background: #f9f9f9;
-    border-radius: 10px;
-    padding: 1em 1.2em;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-    border-left: 4px solid #e74c3c;
+  .beyond-block {
     font-size: 0.93em;
-    line-height: 1.75;
+    line-height: 1.8;
     color: #444;
   }
 
-  .beyond-card a {
-    color: #e74c3c;
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .beyond-card a:hover {
+  .beyond-block a {
+    color: #3a6fa8;
     text-decoration: underline;
+    text-underline-offset: 2px;
   }
 
   @media (max-width: 600px) {
-    .highlight-grid {
-      grid-template-columns: 1fr;
-    }
+    .focus-grid { grid-template-columns: 1fr; }
   }
 </style>
 
 <p class="about-intro">
-  I'm a Master's student in Data Science at <b>UW–Madison</b> with <b>4+ years</b> as an AI Engineer at <b>Zoho Corporation</b>, building production systems across Large Language Models (LLMs) and Automatic Speech Recognition (ASR). I enjoy the full arc, from raw data to deployed models, and care deeply about building tools that are efficient, reliable, and useful to real teams.
+  I'm a Master's student in Data Science at <strong>UW–Madison</strong> with <strong>4+ years</strong> of experience as an AI Engineer at <strong>Zoho Corporation</strong>, building production systems across Large Language Models (LLMs) and Automatic Speech Recognition (ASR). I enjoy the full arc — from raw data to deployed models — and care deeply about building tools that are efficient, reliable, and useful to real teams.
 </p>
 
-<h2 class="section-title">🔬 What I Work On</h2>
+<p class="section-label">What I Work On</p>
 
-<div class="highlight-grid">
-  <div class="highlight-card">
-    <div class="card-title">🤖 LLMs & Data Engineering</div>
-    HuggingFace APIs, large-scale dataset pipelines, Streamlit tooling for data exploration, and translation pipelines that generated <b>hundreds of billions of Indic tokens</b> from open-source English datasets.
+<div class="focus-grid">
+  <div class="focus-card">
+    <div class="fc-title">LLMs & Data Engineering</div>
+    <div class="fc-body">HuggingFace APIs, large-scale dataset pipelines, Streamlit tooling, and translation pipelines generating hundreds of billions of Indic tokens.</div>
   </div>
-  <div class="highlight-card">
-    <div class="card-title">🎙 Automatic Speech Recognition</div>
-    FST-based ITN integration with NVIDIA NeMo, custom Pynini grammars, transformer-encoder retraining in PyTorch Lightning, Whisper fine-tuning, and end-to-end inference services.
+  <div class="focus-card">
+    <div class="fc-title">Automatic Speech Recognition</div>
+    <div class="fc-body">FST-based ITN with NVIDIA NeMo, custom Pynini grammars, transformer-encoder retraining in PyTorch Lightning, and Whisper fine-tuning.</div>
   </div>
-  <div class="highlight-card">
-    <div class="card-title">⚙️ MLOps & Tooling</div>
-    Internal dataset/model management tools with OAuth, DVC integrations, FastAPI web servers with cross-team auth middleware, and Flask-based demo deployments as Linux services.
+  <div class="focus-card">
+    <div class="fc-title">MLOps & Tooling</div>
+    <div class="fc-body">Internal dataset/model management with OAuth, DVC integrations, FastAPI servers with cross-team auth middleware, and Flask demo services.</div>
   </div>
-  <div class="highlight-card">
-    <div class="card-title">🎓 Currently at UW–Madison</div>
-    Graduate coursework in algorithms, statistics, and ML, actively looking for <b>AI/ML internship or research opportunities</b> where I can contribute to real-world impact.
+  <div class="focus-card">
+    <div class="fc-title">Currently at UW–Madison</div>
+    <div class="fc-body">Graduate coursework in algorithms, statistics, and ML. Actively seeking <strong>Summer 2026 AI/ML internship</strong> opportunities.</div>
   </div>
 </div>
 
-<h2 class="section-title">🛠 Skills</h2>
+<p class="section-label">Skills</p>
 
-<div class="skills-row">
-  <span class="skill-tag">Python</span>
-  <span class="skill-tag">PyTorch</span>
-  <span class="skill-tag">HuggingFace</span>
-  <span class="skill-tag">NVIDIA NeMo</span>
-  <span class="skill-tag">Pynini</span>
-  <span class="skill-tag">Streamlit</span>
-  <span class="skill-tag">Flask</span>
-  <span class="skill-tag">FastAPI</span>
-  <span class="skill-tag">DVC</span>
-  <span class="skill-tag">PyTorch Lightning</span>
-  <span class="skill-tag">Whisper</span>
-  <span class="skill-tag">NLP</span>
-  <span class="skill-tag">ASR</span>
-  <span class="skill-tag">LLM</span>
-  <span class="skill-tag">Data Engineering</span>
-  <span class="skill-tag">RESTful APIs</span>
-  <span class="skill-tag">OAuth</span>
-  <span class="skill-tag">Linux</span>
+<div class="tag-row">
+  <span class="tag">Python</span>
+  <span class="tag">PyTorch</span>
+  <span class="tag">HuggingFace</span>
+  <span class="tag">NVIDIA NeMo</span>
+  <span class="tag">Pynini</span>
+  <span class="tag">Streamlit</span>
+  <span class="tag">Flask</span>
+  <span class="tag">FastAPI</span>
+  <span class="tag">DVC</span>
+  <span class="tag">PyTorch Lightning</span>
+  <span class="tag">Whisper</span>
+  <span class="tag">NLP</span>
+  <span class="tag">ASR</span>
+  <span class="tag">LLM</span>
+  <span class="tag">Data Engineering</span>
+  <span class="tag">RESTful APIs</span>
+  <span class="tag">OAuth</span>
+  <span class="tag">Linux</span>
 </div>
 
-<h2 class="section-title">📬 Contact</h2>
+<p class="section-label">Contact</p>
 
-<div class="contact-card">
-  📧 <a href="mailto:egayu3@gmail.com">egayu3@gmail.com</a> &nbsp;·&nbsp;
-  📧 <a href="mailto:gethiraj@wisc.edu">gethiraj@wisc.edu</a>
+<div class="contact-block">
+  <a href="mailto:egayu3@gmail.com">egayu3@gmail.com</a> &nbsp;·&nbsp;
+  <a href="mailto:gethiraj@wisc.edu">gethiraj@wisc.edu</a>
 </div>
 
-<h2 class="section-title">🎨 Beyond Tech</h2>
+<p class="section-label">Beyond Tech</p>
 
-<div class="beyond-card">
-  I channel my creativity through <b>digital art</b>, sharpen strategic thinking over <b>chess</b>, and stay energized on the <b>tennis</b> court. Curious by nature, I find that exploring diverse interests keeps my problem-solving instincts sharp.
+<div class="beyond-block">
+  I channel my creativity through <strong>digital art</strong>, sharpen strategic thinking over <strong>chess</strong>, and stay energized on the <strong>tennis</strong> court. Curious by nature — exploring diverse interests keeps my problem-solving instincts sharp.
   <br><br>
-  🎨 Check out my art page <a href="https://www.instagram.com/_g3rt__/" target="_blank">@_g3rt__ on Instagram ↗</a> ❤️
+  Check out my art page <a href="https://www.instagram.com/_g3rt__/" target="_blank">@_g3rt__ on Instagram</a>.
 </div>

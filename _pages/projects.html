@@ -1,161 +1,176 @@
 ---
 layout: archive
-title: "🤖 Projects"
+title: "Projects"
 permalink: /project/
 author_profile: true
 ---
 
 <style>
-  .section-title {
-    font-size: 1.4em;
-    font-weight: 700;
-    margin-top: 2em;
-    margin-bottom: 0.8em;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 0.3em;
-  }
+  body { color: #2c2c2c; }
 
-  .university-card {
+  .uni-card {
     display: flex;
     align-items: center;
-    gap: 1.2em;
-    background: #f9f9f9;
-    border-radius: 10px;
-    padding: 1em 1.2em;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    gap: 1.1em;
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 1em 1.3em;
     margin-bottom: 2em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
   }
 
-  .university-card img {
-    border-radius: 6px;
+  .uni-card img {
+    border-radius: 5px;
     object-fit: contain;
     flex-shrink: 0;
   }
 
-  .university-card .uni-info {
+  .uni-info {
+    font-size: 0.92em;
     line-height: 1.7;
+    color: #444;
   }
 
   .project-card {
-    background: #f9f9f9;
-    border-radius: 10px;
-    padding: 1.2em 1.4em;
-    margin-bottom: 1.2em;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-    border-left: 4px solid #3498DB;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.2em 1.5em;
+    margin-bottom: 1.1em;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
   }
 
   .project-card h3 {
-    margin: 0 0 0.5em 0;
-    font-size: 1.05em;
+    margin: 0 0 0.4em 0;
+    font-size: 0.98em;
+    font-weight: 600;
   }
 
   .project-card h3 a {
-    color: #2c3e50;
+    color: #1a1a1a;
     text-decoration: none;
   }
 
   .project-card h3 a:hover {
-    color: #3498DB;
+    color: #3a6fa8;
+    text-decoration: underline;
   }
 
-  .project-card p {
-    margin: 0.4em 0;
-    font-size: 0.95em;
-    line-height: 1.6;
+  .body-text {
+    font-size: 0.91em;
+    line-height: 1.75;
+    color: #555;
+    margin: 0.4em 0 0.6em 0;
   }
 
-  .keywords {
-    font-size: 0.85em;
-    color: #666;
-    margin-top: 0.5em;
-  }
-
-  .project-links {
-    margin-top: 0.7em;
+  .tag-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.6em;
+    gap: 0.4em;
+    margin-top: 0.5em;
+    margin-bottom: 0.6em;
   }
 
-  .project-links a {
-    font-size: 0.85em;
-    color: #fff;
-    background: #3498DB;
-    padding: 0.25em 0.75em;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: background 0.2s;
+  .tag {
+    font-size: 0.78em;
+    color: #666;
+    background: #f0f0f0;
+    padding: 0.2em 0.6em;
+    border-radius: 4px;
   }
 
-  .project-links a:hover {
-    background: #2176ae;
+  .links-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.2em;
   }
+
+  .links-row a {
+    font-size: 0.84em;
+    color: #3a6fa8;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .links-row a:hover { color: #1a3f6f; }
 </style>
 
-<h2 class="section-title">🎓 Undergraduate Projects</h2>
-
-<div class="university-card">
+<div class="uni-card">
   <a href="https://www.amrita.edu/" target="_blank">
-    <img src="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/amrita.jpg?raw=true" height="60" width="60" alt="Amrita">
+    <img src="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/amrita.jpg?raw=true" height="56" width="56" alt="Amrita">
   </a>
   <div class="uni-info">
     <strong>B.Tech. in Computer Science Engineering</strong><br>
-    Amrita Vishwa Vidyapeetham University &nbsp;·&nbsp; 2017–2021<br>
-    GPA: 8.31 / 10
+    Amrita Vishwa Vidyapeetham University &nbsp;·&nbsp; 2017–2021 &nbsp;·&nbsp; GPA: 8.31 / 10
   </div>
 </div>
 
-<!-- Project 1 -->
 <div class="project-card">
-  <h3>🎮 <a href="https://github.com/gayu-thri/btech-final-year-project" target="_blank">Gesture-based Game Control using a Low-Resolution Camera</a></h3>
-  <p>This was a final year project. Developed a gesture-based control system using a 3D ConvLSTM model with efficient pre-processing to replace keyboard inputs in games, achieving ~80% accuracy with minimal latency. Evaluated the Gulpio package for caching image frames to address GPU starvation.</p>
-  <div class="keywords">🏷 Deep Learning · TensorFlow · Keras · ConvLSTM</div>
-  <div class="project-links">
+  <h3><a href="https://github.com/gayu-thri/btech-final-year-project" target="_blank">Gesture-based Game Control using a Low-Resolution Camera</a></h3>
+  <p class="body-text">Final year project — developed a gesture-based control system using a 3D ConvLSTM model with efficient pre-processing to replace keyboard inputs in games, achieving ~80% accuracy with minimal latency. Evaluated the Gulpio package for caching image frames to address GPU starvation.</p>
+  <div class="tag-row">
+    <span class="tag">Deep Learning</span>
+    <span class="tag">TensorFlow</span>
+    <span class="tag">Keras</span>
+    <span class="tag">ConvLSTM</span>
+  </div>
+  <div class="links-row">
     <a href="https://github.com/gayu-thri/btech-final-year-project" target="_blank">GitHub</a>
   </div>
 </div>
 
-<!-- Project 2 -->
 <div class="project-card">
-  <h3>🌐 <a href="https://github.com/gayu-thri/SeleniumJS" target="_blank">Web App Testing using Selenium</a></h3>
-  <p>Automated testing of a faculty dashboard web application using Selenium WebDriver, reducing repetitive test cycles from days to hours. Integrated with Jenkins CI/CD for continuous testing.</p>
-  <div class="keywords">🏷 JavaScript · Selenium WebDriver · Jenkins CI/CD · Jira</div>
-  <div class="project-links">
+  <h3><a href="https://github.com/gayu-thri/SeleniumJS" target="_blank">Web App Testing using Selenium</a></h3>
+  <p class="body-text">Automated testing of a faculty dashboard web application using Selenium WebDriver, reducing repetitive test cycles from days to hours. Integrated with Jenkins CI/CD for continuous testing.</p>
+  <div class="tag-row">
+    <span class="tag">JavaScript</span>
+    <span class="tag">Selenium WebDriver</span>
+    <span class="tag">Jenkins CI/CD</span>
+    <span class="tag">Jira</span>
+  </div>
+  <div class="links-row">
     <a href="https://github.com/gayuthri/SeleniumJS" target="_blank">GitHub</a>
     <a href="https://github.com/gayu-thri/SeleniumJS/blob/master/CSE_E_Faculty_Dashboard_Iris_Report_2020.pdf" target="_blank">Report</a>
-    <a href="https://youtu.be/AJwXi6cXysY" target="_blank">▶ Demo</a>
+    <a href="https://youtu.be/AJwXi6cXysY" target="_blank">Demo</a>
     <a href="http://nostalgic-mccarthy-58e272.netlify.com/" target="_blank">Live App</a>
   </div>
 </div>
 
-<!-- Project 3 -->
 <div class="project-card">
-  <h3>🏫 <a href="https://github.com/gayu-thri/CAMs" target="_blank">College Admission Management System</a></h3>
-  <p>Built a web app with admin and user roles. Admins manage colleges, cutoffs, and registrations; users apply for admission and receive status notifications. Deployed via Firebase Hosting.</p>
-  <div class="keywords">🏷 Python Flask · Firebase · Pyrebase · Bulma</div>
-  <div class="project-links">
+  <h3><a href="https://github.com/gayu-thri/CAMs" target="_blank">College Admission Management System</a></h3>
+  <p class="body-text">Built a web app with admin and user roles — admins manage colleges, cutoffs, and registrations; users apply for admission and receive status notifications. Deployed via Firebase Hosting.</p>
+  <div class="tag-row">
+    <span class="tag">Python Flask</span>
+    <span class="tag">Firebase</span>
+    <span class="tag">Pyrebase</span>
+    <span class="tag">Bulma</span>
+  </div>
+  <div class="links-row">
     <a href="https://github.com/gayu-thri/CAMs" target="_blank">GitHub</a>
   </div>
 </div>
 
-<!-- Project 4 -->
 <div class="project-card">
-  <h3>🔌 <a href="https://github.com/gayu-thri/Cisco-Packet-Tracer" target="_blank">Network Configuration & Troubleshooting</a></h3>
-  <p>Configured and troubleshot complex network topologies on Packet Tracer and real Cisco hardware as part of CCNA lab training. Gained hands-on experience with routing, switching, and network maintenance.</p>
-  <div class="keywords">🏷 Packet Tracer · CCNA Lab Pods · Cisco</div>
-  <div class="project-links">
+  <h3><a href="https://github.com/gayu-thri/Cisco-Packet-Tracer" target="_blank">Network Configuration & Troubleshooting</a></h3>
+  <p class="body-text">Configured and troubleshot complex network topologies on Packet Tracer and real Cisco hardware as part of CCNA lab training. Gained hands-on experience with routing, switching, and network maintenance.</p>
+  <div class="tag-row">
+    <span class="tag">Packet Tracer</span>
+    <span class="tag">CCNA</span>
+    <span class="tag">Cisco</span>
+  </div>
+  <div class="links-row">
     <a href="https://github.com/gayu-thri/Cisco-Packet-Tracer" target="_blank">GitHub</a>
   </div>
 </div>
 
-<!-- Project 5 -->
 <div class="project-card">
-  <h3>🔍 <a href="https://github.com/gayu-thri/Web-Scraping" target="_blank">SEO Tool to Analyze Live Web Pages</a></h3>
-  <p>Built an SEO analysis tool that scrapes live web pages and represents keyword frequency distributions in Excel. Leverages word density analysis to understand how search engines rank pages.</p>
-  <div class="keywords">🏷 Beautiful Soup · urllib · Xlsxwriter</div>
-  <div class="project-links">
+  <h3><a href="https://github.com/gayu-thri/Web-Scraping" target="_blank">SEO Tool to Analyze Live Web Pages</a></h3>
+  <p class="body-text">Built an SEO analysis tool that scrapes live web pages and represents keyword frequency distributions in Excel. Leverages word density analysis to understand how search engines rank pages.</p>
+  <div class="tag-row">
+    <span class="tag">Beautiful Soup</span>
+    <span class="tag">urllib</span>
+    <span class="tag">Xlsxwriter</span>
+  </div>
+  <div class="links-row">
     <a href="https://github.com/gayu-thri/Web-Scraping" target="_blank">GitHub</a>
   </div>
 </div>

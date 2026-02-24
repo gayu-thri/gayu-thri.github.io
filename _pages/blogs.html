@@ -1,101 +1,99 @@
 ---
 layout: archive
-title: "✍️ Blogs"
+title: "Blogs"
 permalink: /blogs/
 author_profile: true
 ---
 
 <style>
+  body { color: #2c2c2c; }
+
   .blog-card {
-    background: #f9f9f9;
-    border-radius: 10px;
-    padding: 1.2em 1.4em;
-    margin-bottom: 1.4em;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
-    border-left: 4px solid #3498DB;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.2em 1.5em;
+    margin-bottom: 1.1em;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
   }
 
   .blog-card h3 {
-    margin: 0 0 0.4em 0;
-    font-size: 1.05em;
+    margin: 0 0 0.3em 0;
+    font-size: 0.98em;
+    font-weight: 600;
   }
 
   .blog-card h3 a {
-    color: #2c3e50;
+    color: #1a1a1a;
     text-decoration: none;
   }
 
   .blog-card h3 a:hover {
-    color: #3498DB;
+    color: #3a6fa8;
+    text-decoration: underline;
   }
 
   .blog-meta {
-    font-size: 0.83em;
-    color: #888;
+    font-size: 0.82em;
+    color: #aaa;
     margin-bottom: 0.6em;
   }
 
-  .blog-card p {
-    font-size: 0.95em;
-    line-height: 1.7;
+  .body-text {
+    font-size: 0.91em;
+    line-height: 1.75;
+    color: #555;
     margin: 0.4em 0 0.7em 0;
-    color: #444;
   }
 
-  .project-links {
+  .tag-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.6em;
-    margin-top: 0.5em;
-  }
-
-  .project-links a {
-    font-size: 0.85em;
-    color: #fff;
-    background: #3498DB;
-    padding: 0.25em 0.75em;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: background 0.2s;
-  }
-
-  .project-links a:hover {
-    background: #2176ae;
+    gap: 0.4em;
+    margin-bottom: 0.7em;
   }
 
   .tag {
-    display: inline-block;
-    background: #e8f4fd;
-    color: #3498DB;
     font-size: 0.78em;
-    font-weight: 600;
-    padding: 0.2em 0.65em;
-    border-radius: 20px;
-    margin-right: 0.3em;
-    margin-bottom: 0.5em;
+    color: #666;
+    background: #f0f0f0;
+    padding: 0.2em 0.6em;
+    border-radius: 4px;
   }
+
+  .links-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.2em;
+  }
+
+  .links-row a {
+    font-size: 0.84em;
+    color: #3a6fa8;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .links-row a:hover { color: #1a3f6f; }
 </style>
 
-<!-- Blog 1 -->
 <div class="blog-card">
   <h3>
     <a href="https://medium.com/towards-artificial-intelligence/the-problem-chain-that-led-to-transformers-18081218a164" target="_blank">
       The Problem Chain That Led to Transformers
     </a>
   </h3>
-  <div class="blog-meta">📰 Published on <strong>Towards Artificial Intelligence</strong> · Medium</div>
-  <div>
+  <div class="blog-meta">Towards Artificial Intelligence · Medium</div>
+  <div class="tag-row">
     <span class="tag">Deep Learning</span>
     <span class="tag">Transformers</span>
     <span class="tag">NLP</span>
     <span class="tag">AI</span>
   </div>
-  <p>
-    A deep dive into the sequence of problems and limitations in earlier architectures. RNNs, LSTMs, attention that collectively motivated the design of the Transformer. Traces the intellectual journey that shaped modern NLP.
+  <p class="body-text">
+    A deep dive into the sequence of problems and limitations in earlier architectures — RNNs, LSTMs, attention — that collectively motivated the design of the Transformer. Traces the intellectual journey that shaped modern NLP.
   </p>
-  <div class="project-links">
-    <a href="https://medium.com/towards-artificial-intelligence/the-problem-chain-that-led-to-transformers-18081218a164" target="_blank">📖 Read on Medium</a>
-    <a href="https://www.linkedin.com/posts/gethira_the-problem-chain-that-led-to-transformers-share-7429929028586807296-wC7P" target="_blank">💼 LinkedIn Post</a>
+  <div class="links-row">
+    <a href="https://medium.com/towards-artificial-intelligence/the-problem-chain-that-led-to-transformers-18081218a164" target="_blank">Read on Medium</a>
+    <a href="https://www.linkedin.com/posts/gethira_the-problem-chain-that-led-to-transformers-share-7429929028586807296-wC7P" target="_blank">LinkedIn Post</a>
   </div>
 </div>
