@@ -1,8 +1,8 @@
 # Site Settings
 locale                   : "en-US"
-title                    : "Gayathri Ethiraj | AI/ML Engineer"
+title                    : "Gayathri Ethiraj"
 title_separator          : "-"
-name                     : &name "Gayathri Ethiraj"
+name                     : &name "Gayathri Ethiraj | AI/ML Engineer"
 description              : &description "MS Data Science @ UW–Madison | LLM & ASR Engineer | Formerly @ Zoho Corporation | Seeking Summer 2026 Internships"
 url                      : https://gayu-thri.github.io
 baseurl                  : ""
@@ -68,7 +68,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gayathri Ethiraj"
+  name             : "Gayathri Ethiraj | AI/ML Engineer"
   avatar           : "gayu_profile.jpg"
   bio              : "MS Data Science @ UW–Madison · LLM & ASR Engineer · Formerly @ Zoho · Seeking Summer 2026 Internships"
   location         : "Madison, WI"
