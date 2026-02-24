@@ -29,10 +29,34 @@ author_profile: true
 
   .resume-actions a:hover { color: #1a3f6f; }
 
-  iframe {
+  #pdf-canvas {
+    width: 100%;
     border-radius: 6px;
-    display: block;
     box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+
+  .pdf-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 0.8em;
+    font-size: 0.88em;
+    color: #666;
+  }
+
+  .pdf-controls button {
+    font-size: 0.88em;
+    color: #3a6fa8;
+    background: none;
+    border: 1px solid #c0d4ed;
+    border-radius: 4px;
+    padding: 0.2em 0.7em;
+    cursor: pointer;
+  }
+
+  .pdf-controls button:hover {
+    background: #f0f5fb;
   }
 </style>
 
@@ -40,9 +64,46 @@ author_profile: true
   <div class="resume-actions">
     <a href="/files/Gayathri_Ethiraj_Resume.pdf" download>Download PDF</a>
   </div>
-  <iframe
-    src="https://docs.google.com/viewer?url=https://gayu-thri.github.io/files/Gayathri_Ethiraj_Resume.pdf&embedded=true"
-    width="100%"
-    height="880px"
-  ></iframe>
+  <canvas id="pdf-canvas"></canvas>
+  <div class="pdf-controls">
+    <button id="prev-page">← Prev</button>
+    <span id="page-info">Page 1</span>
+    <button id="next-page">Next →</button>
+  </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+  const url = '/files/Gayathri_Ethiraj_Resume.pdf';
+  let pdfDoc = null;
+  let currentPage = 1;
+
+  const canvas = document.getElementById('pdf-canvas');
+  const ctx = canvas.getContext('2d');
+
+  function renderPage(num) {
+    pdfDoc.getPage(num).then(page => {
+      const viewport = page.getViewport({ scale: 1.8 });
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+      page.render({ canvasContext: ctx, viewport });
+      document.getElementById('page-info').textContent =
+        `Page ${num} of ${pdfDoc.numPages}`;
+    });
+  }
+
+  pdfjsLib.getDocument(url).promise.then(doc => {
+    pdfDoc = doc;
+    renderPage(currentPage);
+  });
+
+  document.getElementById('prev-page').addEventListener('click', () => {
+    if (currentPage > 1) { currentPage--; renderPage(currentPage); }
+  });
+
+  document.getElementById('next-page').addEventListener('click', () => {
+    if (currentPage < pdfDoc.numPages) { currentPage++; renderPage(currentPage); }
+  });
+</script>
