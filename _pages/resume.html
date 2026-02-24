@@ -1,41 +1,64 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Resume"
+permalink: /resume/
 author_profile: true
 ---
 
-<h2>Resume</h2>
+<style>
+  .section-title {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.3em;
+  }
 
-<ul>
-<li>My latest resume has been attached for download. 
- <i> <a href="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/Gayathri_Ethiraj_Resume.pdf" target="_blank">
-  Click here. </a> </i>
-</li>
-</ul>
+  .resume-wrapper {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 1.4em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  }
 
-<h2>Recommendations</h2>
+  .resume-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2em;
+  }
 
-<ul>
-  <li>Zoho Corporation : Ananda Seelan, Lead, ML Engineer, ASR Team
-    <i> <a href="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/Gayathri_Ethiraj_LOR_Seelan.pdf" target="_blank">
-    Click here. </a> </i>
-  </li>
-</ul>
-<ul>
-  <li>Amrita University : Dr. Rajathilagam B., Professor, Amrita Vishwa Vidyapeetham, School of Computing, Coimbatore
-    <i> <a href="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/Gayathri_Ethiraj_LOR_Rajathilagam.pdf" target="_blank">
-    Click here. </a> </i>
-  </li>
-</ul>
-<ul>
-  <li>Amrita University : Dr. Senthil Kumar T., Professor, Amrita Vishwa Vidyapeetham, School of Computing, Coimbatore
-    <i> <a href="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/Gayathri_Ethiraj_LOR_SenthilKumar.pdf" target="_blank">
-    Click here. </a> </i>
-  </li>
-</ul>
+  .resume-actions a {
+    font-size: 0.9em;
+    color: #fff;
+    background: #3498DB;
+    padding: 0.45em 1.2em;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
 
-{% for post in site.resume %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
+  .resume-actions a:hover {
+    background: #2176ae;
+  }
 
+  iframe {
+    border-radius: 8px;
+    display: block;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  }
+</style>
+
+<h2 class="section-title">📄 Resume</h2>
+
+<div class="resume-wrapper">
+  <div class="resume-actions">
+    <a href="{{ '_pages/Gayathri_Ethiraj_Resume.pdf' | relative_url }}" download>⬇ Download PDF</a>
+  </div>
+  <iframe
+    src="{{ '_pages/Gayathri_Ethiraj_Resume.pdf' | relative_url }}"
+    width="100%"
+    height="880px"
+  ></iframe>
+</div>

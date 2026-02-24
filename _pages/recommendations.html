@@ -1,0 +1,126 @@
+---
+layout: archive
+title: "Recommendations"
+permalink: /recommendations/
+author_profile: true
+---
+
+<style>
+  .section-title {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.3em;
+  }
+
+  .rec-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 1.2em 1.4em;
+    margin-bottom: 1.2em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    border-left: 4px solid #3498DB;
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+  }
+
+  .rec-avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #3498DB;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .rec-info {
+    flex: 1;
+  }
+
+  .rec-info h3 {
+    margin: 0 0 0.15em 0;
+    font-size: 1em;
+    color: #2c3e50;
+  }
+
+  .rec-info .role {
+    font-size: 0.85em;
+    color: #3498DB;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+  }
+
+  .rec-info .org {
+    font-size: 0.82em;
+    color: #888;
+    margin-bottom: 0.5em;
+  }
+
+  .project-links a {
+    font-size: 0.85em;
+    color: #fff;
+    background: #3498DB;
+    padding: 0.25em 0.75em;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+
+  .project-links a:hover {
+    background: #2176ae;
+  }
+</style>
+
+<h2 class="section-title">🌟 Recommendations</h2>
+
+<!-- Ananda Seelan -->
+<div class="rec-card">
+  <div class="rec-avatar">A</div>
+  <div class="rec-info">
+    <h3>Ananda Seelan Lakshmi Narasimhan</h3>
+    <div class="role">ML Engineer (Team Lead) — ASR ZLabs R&D</div>
+    <div class="org">🏢 Zoho Corporation · Now Senior Deep Learning Scientist, NVIDIA</div>
+    <div class="project-links">
+      <a href="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/Gayathri_Ethiraj_LOR_Seelan.pdf" target="_blank">📄 View Letter</a>
+    </div>
+  </div>
+</div>
+
+<!-- Dr. Rajathilagam -->
+<div class="rec-card">
+  <div class="rec-avatar">R</div>
+  <div class="rec-info">
+    <h3>Dr. Rajathilagam B.</h3>
+    <div class="role">Professor</div>
+    <div class="org">🏛 Amrita Vishwa Vidyapeetham, School of Computing, Coimbatore</div>
+    <div class="project-links">
+      <a href="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/Gayathri_Ethiraj_LOR_Rajathilagam.pdf" target="_blank">📄 View Letter</a>
+    </div>
+  </div>
+</div>
+
+<!-- Dr. Senthil Kumar -->
+<div class="rec-card">
+  <div class="rec-avatar">S</div>
+  <div class="rec-info">
+    <h3>Dr. Senthil Kumar T.</h3>
+    <div class="role">Professor</div>
+    <div class="org">🏛 Amrita Vishwa Vidyapeetham, School of Computing, Coimbatore</div>
+    <div class="project-links">
+      <a href="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/Gayathri_Ethiraj_LOR_SenthilKumar.pdf" target="_blank">📄 View Letter</a>
+    </div>
+  </div>
+</div>
+
+{% for post in site.resume %}
+  {% include archive-single-cv.html %}
+{% endfor %}

@@ -4,98 +4,162 @@ title: "Projects"
 permalink: /project/
 author_profile: true
 ---
-<body link="blue" >
-		<h2>Undergraduate Coursework</h2>
-		<a href="https://www.amrita.edu/" target="_blank"> <img src="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/amrita.jpg?raw=true" height="60" width="60" alt='Amrita' > </a>
-		B.Tech. in Computer Science Engineering, Amrita Vishwa Vidyapeetham University, 2017-2021<br>
-		GPA: 8.31/10<br>
 
-		<a href="https://github.com/gayu-thri/btech-final-year-project" target="_blank"><h3><u>Gesture-based game control using a low-resolution camera</u> :</h3></a>
-		<ul>
-			<li>
-				A final year project done during 7th semester. Developed a gesture-based control system using a 3D ConvLSTM model with efficient pre-processing techniques to replace keyboard inputs in games, achieving ~80% accuracy with minimal latency.
-				Evaluated the feasibility of utilizing the Gulpio package to cache image frames during training, addressing GPU starvation issues.
-			<li>	
-				Keywords: <i> Deep Learning, TensorFlow, Keras, ConvLSTM </i>
-				<ul>
-					<li>
-						<a target="_blank" href="https://github.com/gayu-thri/btech-final-year-project" style="color:#3498DB;"><b>Project</b></a>
-					</li>
-				</ul>
-		</ul>
+<style>
+  .section-title {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.3em;
+  }
 
+  .university-card {
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 1em 1.2em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    margin-bottom: 2em;
+  }
 
-		<a href="https://github.com/gayu-thri/SeleniumJS" target="_blank"><h3><u>Web app testing using Selenium</u> :</h3></a>
-		<ul>
-			<li>
-				Tested faculty dashboard web application using Selenium web driver, an umbrella project encapsulating a variety of tools and libraries to enable web browser automation testing.
-				Used automated software testing to reduce time taken to run repetitive tests from days to hours.
-			<li>	
-				Keywords: <i> Jira, JavaScript, Selenium web-driver, Jenkins CICD </i>
-				<ul>
-					<li>
-						<a target="_blank" href="https://github.com/gayuthri/SeleniumJS" style="color:#3498DB;"><b>Project</b></a> and <a target="_blank" href="https://github.com/gayu-thri/SeleniumJS/blob/master/CSE_E_Faculty_Dashboard_Iris_Report_2020.pdf" style="color:#3498DB;"><b>Report</b></a>
-					</li>
-					<li>
-						Youtube Demo - <a target="_blank" href="https://youtu.be/AJwXi6cXysY" style="color:#3498DB;"><b>Jenkins CICD</b></a>
-					</li>
-					<li>
-						<a target="_blank" href="http://nostalgic-mccarthy-58e272.netlify.com/" style="color:#3498DB;"><b>Iris - Faculty Dashboard</b></a>(Hosted at AWS)
-					</li>
-					
-				</ul>
-		</ul>
+  .university-card img {
+    border-radius: 6px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
 
-		
-		<a href="https://github.com/gayu-thri/CAMs" target="_blank"><h3><u>Web app for College Admission Management System</u> :</h3></a>
-		<ul>
-			<li>
-				Developed the application for two major access roles – admin and user. Admin can add colleges, designate cut offs, and register students into the college. 
-				Users can login, submit an application for admission and receive notifications regarding the status of their application. The app was deployed using Firebase Hosting.
-			<li>	
-				Keywords: <i> Python Flask, Firebase, Pyrebase, Bulma </i>
-				<ul>
-					<li>
-						<a target="_blank" href="https://github.com/gayu-thri/CAMs" style="color:#3498DB;"><b>Project</b></a>
-					</li>
-				</ul>
-		</ul>
-		
-		
-		<a href="https://github.com/gayu-thri/Cisco-Packet-Tracer" target="_blank"><h3><u>Network configuration and troubleshooting</u> :</h3></a>
-		<ul>
-			<li>
-				Configured and troubleshot complex network topologies on Packet Tracer simulator and real networking equipment as part of CCNA lab training.
-				Gained a thorough understanding of physical set up, configuration, operation and maintenance of multiple Cisco routing and switching devices.
-			<li>	
-				Keywords: <i> Packet Tracer, CCNA Lab Pods </i>
-				<ul>
-					<li>
-						<a target="_blank" href="https://github.com/gayu-thri/Cisco-Packet-Tracer" style="color:#3498DB;"><b>Project</b></a>
-					</li>
-				</ul>
-			</li>
-			</li>
-		</ul>
+  .university-card .uni-info {
+    line-height: 1.7;
+  }
 
-		
-		<a href="https://github.com/gayu-thri/Web-Scraping" target="_blank"><h3><u>Search Engine Optimization tool to analyze live web pages</u> :</h3></a>
-		<ul>
-			<li>
-				Developed a Search Engine Optimization (SEO) tool for analyzing live web pages and representing pages as key word frequencies in Microsoft Excel.
-				Gained valuable knowledge on programming in this high-performance computing space as search engines leverage word density of web pages for ranking.
-			<li>	
-				Keywords: <i> Beautiful Soup, urllib, Xlsxwriter </i>
-				
-				<ul>
-					<li>
-						<a target="_blank" href="https://github.com/gayu-thri/Web-Scraping" style="color:#3498DB;"><b>Project</b></a>
-					</li>
-				</ul>
-			</li>
-			</li>
-		</ul>
-		
-		
-		
-</body>
+  .project-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 1.2em 1.4em;
+    margin-bottom: 1.2em;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    border-left: 4px solid #3498DB;
+  }
+
+  .project-card h3 {
+    margin: 0 0 0.5em 0;
+    font-size: 1.05em;
+  }
+
+  .project-card h3 a {
+    color: #2c3e50;
+    text-decoration: none;
+  }
+
+  .project-card h3 a:hover {
+    color: #3498DB;
+  }
+
+  .project-card p {
+    margin: 0.4em 0;
+    font-size: 0.95em;
+    line-height: 1.6;
+  }
+
+  .keywords {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 0.5em;
+  }
+
+  .project-links {
+    margin-top: 0.7em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
+  }
+
+  .project-links a {
+    font-size: 0.85em;
+    color: #fff;
+    background: #3498DB;
+    padding: 0.25em 0.75em;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+
+  .project-links a:hover {
+    background: #2176ae;
+  }
+</style>
+
+<h2 class="section-title">🎓 Undergraduate Projects</h2>
+
+<div class="university-card">
+  <a href="https://www.amrita.edu/" target="_blank">
+    <img src="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/amrita.jpg?raw=true" height="60" width="60" alt="Amrita">
+  </a>
+  <div class="uni-info">
+    <strong>B.Tech. in Computer Science Engineering</strong><br>
+    Amrita Vishwa Vidyapeetham University &nbsp;·&nbsp; 2017–2021<br>
+    GPA: 8.31 / 10
+  </div>
+</div>
+
+<!-- Project 1 -->
+<div class="project-card">
+  <h3>🎮 <a href="https://github.com/gayu-thri/btech-final-year-project" target="_blank">Gesture-based Game Control using a Low-Resolution Camera</a></h3>
+  <p>Final year project — developed a gesture-based control system using a 3D ConvLSTM model with efficient pre-processing to replace keyboard inputs in games, achieving ~80% accuracy with minimal latency. Evaluated the Gulpio package for caching image frames to address GPU starvation.</p>
+  <div class="keywords">🏷 Deep Learning · TensorFlow · Keras · ConvLSTM</div>
+  <div class="project-links">
+    <a href="https://github.com/gayu-thri/btech-final-year-project" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<!-- Project 2 -->
+<div class="project-card">
+  <h3>🌐 <a href="https://github.com/gayu-thri/SeleniumJS" target="_blank">Web App Testing using Selenium</a></h3>
+  <p>Automated testing of a faculty dashboard web application using Selenium WebDriver, reducing repetitive test cycles from days to hours. Integrated with Jenkins CI/CD for continuous testing.</p>
+  <div class="keywords">🏷 JavaScript · Selenium WebDriver · Jenkins CI/CD · Jira</div>
+  <div class="project-links">
+    <a href="https://github.com/gayuthri/SeleniumJS" target="_blank">GitHub</a>
+    <a href="https://github.com/gayu-thri/SeleniumJS/blob/master/CSE_E_Faculty_Dashboard_Iris_Report_2020.pdf" target="_blank">Report</a>
+    <a href="https://youtu.be/AJwXi6cXysY" target="_blank">▶ Demo</a>
+    <a href="http://nostalgic-mccarthy-58e272.netlify.com/" target="_blank">Live App</a>
+  </div>
+</div>
+
+<!-- Project 3 -->
+<div class="project-card">
+  <h3>🏫 <a href="https://github.com/gayu-thri/CAMs" target="_blank">College Admission Management System</a></h3>
+  <p>Built a web app with admin and user roles — admins manage colleges, cutoffs, and registrations; users apply for admission and receive status notifications. Deployed via Firebase Hosting.</p>
+  <div class="keywords">🏷 Python Flask · Firebase · Pyrebase · Bulma</div>
+  <div class="project-links">
+    <a href="https://github.com/gayu-thri/CAMs" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<!-- Project 4 -->
+<div class="project-card">
+  <h3>🔌 <a href="https://github.com/gayu-thri/Cisco-Packet-Tracer" target="_blank">Network Configuration & Troubleshooting</a></h3>
+  <p>Configured and troubleshot complex network topologies on Packet Tracer and real Cisco hardware as part of CCNA lab training. Gained hands-on experience with routing, switching, and network maintenance.</p>
+  <div class="keywords">🏷 Packet Tracer · CCNA Lab Pods · Cisco</div>
+  <div class="project-links">
+    <a href="https://github.com/gayu-thri/Cisco-Packet-Tracer" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<!-- Project 5 -->
+<div class="project-card">
+  <h3>🔍 <a href="https://github.com/gayu-thri/Web-Scraping" target="_blank">SEO Tool to Analyze Live Web Pages</a></h3>
+  <p>Built an SEO analysis tool that scrapes live web pages and represents keyword frequency distributions in Excel. Leverages word density analysis to understand how search engines rank pages.</p>
+  <div class="keywords">🏷 Beautiful Soup · urllib · Xlsxwriter</div>
+  <div class="project-links">
+    <a href="https://github.com/gayu-thri/Web-Scraping" target="_blank">GitHub</a>
+  </div>
+</div>
+
+{% for post in site.history reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}

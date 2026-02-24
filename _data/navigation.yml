@@ -9,8 +9,14 @@ main:
   - title: "Industry"
     url: /industry/    
 
-  - title: "CV"
-    url: /cv/    
+  - title: "Resume"
+    url: /resume/
+
+  - title: "Recommendations"
+    url: /recommendations/    
 
   - title: "Personal"
     url: /personal/  
+
+  - title: "Blogs"
+    url: /blogs/    
