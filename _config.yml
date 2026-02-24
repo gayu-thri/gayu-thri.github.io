@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My Personal Website"
+title                    : "gethira"
 title_separator          : "-"
 name                     : &name "Gayathri Ethiraj"
-description              : &description "Masters in Data Science at Univeristy of Wisconsin-Madison, USA | Ex-Zoho Corporation | Undergraduate in Computer Science at Amrita University, Coimbatore"
+description              : &description "MS Data Science @ UW–Madison · LLM & ASR Engineer · Formerly @ Zoho · Seeking Summer 2026 Internships"
 url                      : https://gayu-thri.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gayu-thri.github.io"
@@ -81,8 +81,8 @@ analytics:
 author:
   name             : "Gayathri Ethiraj"
   avatar           : "gayu_profile.jpg"
-  bio              : "LLM at Zoho Corporation | Undergraduate in Computer Science at Amrita University, Coimbatore"
-  location         : "Chennai, Tamil Nadu"
+  bio              : "MS Data Science @ UW–Madison · LLM & ASR Engineer · Formerly @ Zoho · Seeking Summer 2026 Internships"
+  location         : "Madison, WI"
   #employer         :
   #googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "egayu3@gmail.com"
@@ -92,7 +92,7 @@ author:
   #dribbble         :
   #flickr           :
   github           : "gayu-thri"
-  linkedin         : "gaethira"
+  linkedin         : "gethira"
   facebook         : "gayathri.ethiraj22"
   #foursquare       :
   google_plus      :

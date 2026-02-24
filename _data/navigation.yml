@@ -1,22 +1,22 @@
 # main links links
 main:
-  - title: "History"
+  - title: "🎓 History"
     url: /history/
   
-  - title: "Projects"
+  - title: "🤖 Projects"
     url: /project/
 
-  - title: "Industry"
+  - title: "💼 Industry"
     url: /industry/    
 
-  - title: "Resume"
+  - title: "📄 Resume"
     url: /resume/
 
-  - title: "Recommendations"
+  - title: "🌟 Recommendations"
     url: /recommendations/    
 
-  - title: "Personal"
-    url: /personal/  
+  - title: "🎯 Achievements & Interests"
+    url: /achievements_and_interests.html/  
 
-  - title: "Blogs"
+  - title: "✍️ Blogs"
     url: /blogs/    
