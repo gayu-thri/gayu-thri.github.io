@@ -2,12 +2,12 @@
 main:
   - title: "Education"
     url: /history/
-  
-  - title: "Projects"
-    url: /project/
 
   - title: "Industry"
     url: /industry/    
+  
+  - title: "Projects"
+    url: /project/
 
   - title: "Resume"
     url: /resume/

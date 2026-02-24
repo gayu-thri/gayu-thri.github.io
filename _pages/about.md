@@ -59,7 +59,8 @@ redirect_from:
     display: flex;
     flex-wrap: wrap;
     gap: 0.4em;
-    margin-top: 0.4em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
   }
 
   .tag {
@@ -100,7 +101,7 @@ redirect_from:
 </style>
 
 <p class="about-intro">
-  I'm a Master's student in Data Science at <strong>UW–Madison</strong> with <strong>4+ years</strong> of experience as an AI Engineer at <strong>Zoho Corporation</strong>, building production systems across Large Language Models (LLMs) and Automatic Speech Recognition (ASR). I enjoy the full arc — from raw data to deployed models — and care deeply about building tools that are efficient, reliable, and useful to real teams.
+  I'm a Master's student in Data Science at <strong>UW–Madison</strong> with <strong>4+ years</strong> of experience as an AI Engineer at <strong>Zoho Corporation</strong>, building production systems across Large Language Models (LLMs) and Automatic Speech Recognition (ASR). I enjoy the full arc, from raw data to deployed models, and care deeply about building tools that are efficient, reliable, and useful to real teams.
 </p>
 
 <p class="section-label">What I Work On</p>
@@ -108,11 +109,11 @@ redirect_from:
 <div class="focus-grid">
   <div class="focus-card">
     <div class="fc-title">LLMs & Data Engineering</div>
-    <div class="fc-body">HuggingFace APIs, large-scale dataset pipelines, Streamlit tooling, and translation pipelines generating hundreds of billions of Indic tokens.</div>
+    <div class="fc-body">HuggingFace APIs, large-scale dataset processing and categorisation pipelines. Translation pipelines generating hundreds of billions of Indic tokens.</div>
   </div>
   <div class="focus-card">
     <div class="fc-title">Automatic Speech Recognition</div>
-    <div class="fc-body">FST-based ITN with NVIDIA NeMo, custom Pynini grammars, transformer-encoder retraining in PyTorch Lightning, and Whisper fine-tuning.</div>
+    <div class="fc-body">FST-based ITN with NVIDIA NeMo, custom Pynini grammars, transformer-encoder training in PyTorch Lightning, whisper fine-tuning and  end-to-end ASR inference service deployment.</div>
   </div>
   <div class="focus-card">
     <div class="fc-title">MLOps & Tooling</div>
@@ -147,17 +148,11 @@ redirect_from:
   <span class="tag">Linux</span>
 </div>
 
-<p class="section-label">Contact</p>
-
-<div class="contact-block">
-  <a href="mailto:egayu3@gmail.com">egayu3@gmail.com</a> &nbsp;·&nbsp;
-  <a href="mailto:gethiraj@wisc.edu">gethiraj@wisc.edu</a>
-</div>
 
 <p class="section-label">Beyond Tech</p>
 
 <div class="beyond-block">
-  I channel my creativity through <strong>digital art</strong>, sharpen strategic thinking over <strong>chess</strong>, and stay energized on the <strong>tennis</strong> court. Curious by nature — exploring diverse interests keeps my problem-solving instincts sharp.
+  I channel my creativity through <strong>digital art</strong>, sharpen strategic thinking over <strong>chess</strong>, and stay energized on the <strong>tennis</strong> court. Curious by nature, exploring diverse interests keeps my problem-solving instincts sharp.
   <br><br>
   Check out my art page <a href="https://www.instagram.com/_g3rt__/" target="_blank">@_g3rt__ on Instagram</a>.
 </div>

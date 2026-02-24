@@ -116,9 +116,11 @@ author_profile: true
     </div>
   </div>
   <p class="body-text">
-    Researched data tools for LLMs and built a Streamlit app using HuggingFace APIs to load, tokenize, filter data, ingest metadata, generate recipes, and perform regex-based keyword search.
-    Generated hundreds of billions of tokens of Indic data by translating open-source English datasets using an internal CPU-based translation model, optimized with multi-threading.
-    Performed large-scale data categorization using Lilac clustering and developed a rate-limited Google Classification API pipeline to produce reliable data–category pairs for downstream model training.
+    <ul>
+      <li> Performed large-scale data categorization using Lilac clustering; Benchmarked scalability, identifying high time costs and false-positives. Developed a <b>rate-limited Google Classification API pipeline</b> to produce reliable data–category pairs for downstream model training. </li>
+      <li> Built a Streamlit app using <b>Hugging Face APIs</b> to load data, tokenize, filter, ingest meta, generate recipes & perform regex-based search. </li>
+      <li> Researched various open-source data tools for LLMs. Generated <b>100s of billions of tokens</b> of Indic data by translating open-source English datasets using an internal CPU-based translation model, optimized with multi-threading for faster processing. </li>
+    </ul>
   </p>
   <div class="tag-row">
     <span class="tag">HuggingFace</span>
@@ -145,10 +147,15 @@ author_profile: true
     </div>
   </div>
   <p class="body-text">
-    Integrated an FST-based ITN system into ASR post-processing using NVIDIA NeMo, added 4 custom grammar rules with Pynini, and compiled them into FAR — reducing processing time by 140× and memory usage by 80%.
-    Led a 4-member annotation team for ITN data collection and benchmarked F1 scores for internal punctuation-capitalization models. Fine-tuned an internal ASR model using Whisper transcriptions and deployed a Flask inference demo as a Linux service.
-    Preprocessed ASR datasets (boosting training data by 16%), built an audio I/O module using torchaudio, and developed internal tools (<i>pystratus</i>, <i>dvc-stratus</i>) for secure cross-team dataset and model management with OAuth and resource policies.
-    Integrated ZWAF into a FastAPI-based ASR web server for OneAuth token validation in cross-team API communication.
+    <ul>
+      <li> Integrated a <b>FST based Inverse Text Normalization (ITN)</b>  system into ASR post-processing using <b></b>NVIDIA NeMo</b> and added 4 custom grammar rules using <b></b>Pynini</b>. Compiled into FAR, reducing processing time by <b></b>140×</b> and memory use by <b></b>80\%</b>. </li>
+      <li> Generated <b>5M+</b> synthetic spoken-written pairs for capitalization using <b></b>OpenAI APIs</b> and led <b></b>4</b>-member team for ITN data annotation.</li>
+      <li> Benchmarked F1 scores for internal punct-cap models; Refactored \& retrained punct-cap <b></b>transformer-encoder</b> in <b></b>PyTorch Lightning</b>.</li>
+      <li> Generated transcriptions using <b>Whisper</b> to fine-tune an internal ASR model. Built \& deployed a Flask inference demo as a Linux service.</li>
+      <li> Preprocessed ASR datasets, boosting training data by <b>16\%</b>. Enhanced ASR functionality with a <b></b>torchaudio</b> based audio I/O module. </li>
+      <li> Built internal tools (<i>pystratus</i>, <i>dvc-stratus</i>) for dataset and model management, enabling secure cross-team adoption with OAuth and resource policies. Maintained ZWAF for OneAuth token validation in cross-team Zoho API communication. </li>
+      <li> Integrated ZWAF into FastAPI-based ASR web server middleware, securing cross-team usage.</li>
+    </ul>
   </p>
   <div class="tag-row">
     <span class="tag">ITN</span>
@@ -177,8 +184,10 @@ author_profile: true
     </div>
   </div>
   <p class="body-text">
-    Collected and preprocessed ASR datasets, increasing the benchmark data suite by 83% (~400 hours of audio). Processed open-source data using youtube-dl and Google ASR, and built a Streamlit tool for audio recording.
-    Organized team sessions for real-time benchmark recordings and wrote PyTorch Iterable Dataset classes with pytest unit tests for each dataset.
+    <ul>
+      <li>Collected and preprocessed datasets for ASR model, assisting peer ML Engineers with data requirements, increased benchmark data suite by <b>83\% (400 hours of audio)</b>. Added <b>PyTorch</b> Iterable Dataset classes for each dataset and unit tests using pytest.</li>
+      <li>Processed open-source datasets using youtube-dl for YouTube data, <b>Google ASR</b> for synthetic transcriptions and developed a <b>Streamlit</b> tool for audio recording. Organized team sessions to create a limited benchmark with real-time recordings.</li>
+    </ul>
   </p>
   <div class="tag-row">
     <span class="tag">Python</span>
@@ -206,8 +215,10 @@ author_profile: true
     </div>
   </div>
   <p class="body-text">
-    Developed an issue tracking system on ONGC's intranet — enabling issue creation, retrieval by ID, and resolution status tracking. Users could accept or deny resolutions to flag if further assistance was needed.
-    Gained hands-on experience collaborating with a team of software engineers on a real-world product.
+    <ul>
+      <li>Developed an issue tracking system on ONGC's intranet, enabling issue creation, retrieval by ID, and resolution status tracking. Users could accept or deny resolutions to flag if further assistance was needed.</li>
+      <li>Gained hands-on experience collaborating with a team of software engineers on a real-world product.</li>
+    </ul>
   </p>
   <div class="tag-row">
     <span class="tag">Python</span>
