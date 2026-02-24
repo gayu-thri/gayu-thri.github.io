@@ -117,7 +117,7 @@ redirect_from:
 </style>
 
 <p class="about-intro">
-  I'm a Master's student in Data Science at <b>UW–Madison</b> with <b>4+ years</b> as an AI Engineer at <b>Zoho Corporation</b>, building production systems across Large Language Models (LLMs) and Automatic Speech Recognition (ASR). I enjoy the full arc — from raw data to deployed models — and care deeply about building tools that are efficient, reliable, and useful to real teams.
+  I'm a Master's student in Data Science at <b>UW–Madison</b> with <b>4+ years</b> as an AI Engineer at <b>Zoho Corporation</b>, building production systems across Large Language Models (LLMs) and Automatic Speech Recognition (ASR). I enjoy the full arc, from raw data to deployed models, and care deeply about building tools that are efficient, reliable, and useful to real teams.
 </p>
 
 <h2 class="section-title">🔬 What I Work On</h2>
@@ -137,7 +137,7 @@ redirect_from:
   </div>
   <div class="highlight-card">
     <div class="card-title">🎓 Currently at UW–Madison</div>
-    Graduate coursework in algorithms, statistics, and ML — actively looking for <b>AI/ML internship or research opportunities</b> where I can contribute to real-world impact.
+    Graduate coursework in algorithms, statistics, and ML, actively looking for <b>AI/ML internship or research opportunities</b> where I can contribute to real-world impact.
   </div>
 </div>
 
@@ -174,7 +174,7 @@ redirect_from:
 <h2 class="section-title">🎨 Beyond Tech</h2>
 
 <div class="beyond-card">
-  I channel my creativity through <b>digital art</b>, sharpen strategic thinking over <b>chess</b>, and stay energized on the <b>tennis</b> court. Curious by nature — I find that exploring diverse interests keeps my problem-solving instincts sharp.
+  I channel my creativity through <b>digital art</b>, sharpen strategic thinking over <b>chess</b>, and stay energized on the <b>tennis</b> court. Curious by nature, I find that exploring diverse interests keeps my problem-solving instincts sharp.
   <br><br>
   🎨 Check out my art page <a href="https://www.instagram.com/_g3rt__/" target="_blank">@_g3rt__ on Instagram ↗</a> ❤️
 </div>

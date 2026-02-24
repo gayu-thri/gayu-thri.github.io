@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "History"
+  - title: "Education"
     url: /history/
   
   - title: "Projects"
@@ -16,7 +16,7 @@ main:
     url: /recommendations/    
 
   - title: "Achievements & Interests"
-    url: /achievements_and_interests.html/  
+    url: /personal/  
 
   - title: "Blogs"
     url: /blogs/    
