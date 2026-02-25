@@ -15,7 +15,7 @@ main:
   - title: "Recommendations"
     url: /recommendations/    
 
-  - title: "Achievements & Interests"
+  - title: "Achievements"
     url: /personal/  
 
   - title: "Blogs"
