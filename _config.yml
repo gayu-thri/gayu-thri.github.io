@@ -6,7 +6,7 @@ name                     : &name "Gayathri Ethiraj"
 description              : &description "MS Data Science @ UW–Madison | LLM & ASR Engineer | Formerly @ Zoho Corporation | Seeking Summer 2026 Internships"
 url                      : https://gayu-thri.github.io
 baseurl                  : ""
-repository               : "gayu-thri.github.io"
+repository               : "gayu-thri/gayu-thri.github.io"
 teaser                   :
 breadcrumbs              : false
 words_per_minute         : 160
@@ -61,10 +61,12 @@ social:
   links:
 
 # Analytics
+# analytics:
+#   provider               : "google-universal"
+#   google:
+#     tracking_id          :
 analytics:
-  provider               : "google-universal"
-  google:
-    tracking_id          :
+  provider: false
 
 # Site Author
 author:
@@ -161,6 +163,7 @@ collections:
 
 # Defaults
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -171,12 +174,14 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -185,6 +190,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _publications
   - scope:
       path: ""
       type: publications
@@ -193,6 +199,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -201,6 +208,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _talks
   - scope:
       path: ""
       type: talks
@@ -225,6 +233,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
