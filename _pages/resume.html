@@ -43,3 +43,7 @@ author_profile: true
   </div>
   <img class="resume-img" src="/files/Gayathri_Ethiraj_Resume.jpg" alt="Gayathri Ethiraj Resume">
 </div>
+
+{% for post in site.history reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}

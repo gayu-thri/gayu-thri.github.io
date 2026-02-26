@@ -61,12 +61,10 @@ social:
   links:
 
 # Analytics
-# analytics:
-#   provider               : "google-universal"
-#   google:
-#     tracking_id          :
 analytics:
-  provider: false
+  provider               : "google-universal"
+  google:
+    tracking_id          :
 
 # Site Author
 author:
