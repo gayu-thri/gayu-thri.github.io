@@ -10,7 +10,7 @@ main:
     url: /project/
 
   - title: "Resume"
-    url: /resume/
+    url: /cv/
 
   - title: "Recommendations"
     url: /recommendations/    
