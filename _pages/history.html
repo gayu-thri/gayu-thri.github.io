@@ -8,6 +8,7 @@ author_profile: true
 <style>
   body { color: #2c2c2c; }
 
+  /* ── Education Cards ── */
   .edu-card {
     background: #fff;
     border-radius: 8px;
@@ -18,17 +19,12 @@ author_profile: true
     align-items: center;
     gap: 1.1em;
   }
-
   .edu-card img {
     border-radius: 5px;
     object-fit: contain;
     flex-shrink: 0;
   }
-
-  .edu-info {
-    flex: 1;
-  }
-
+  .edu-info { flex: 1; }
   .badge {
     display: inline-block;
     font-size: 0.72em;
@@ -40,20 +36,17 @@ author_profile: true
     margin-bottom: 0.35em;
     letter-spacing: 0.03em;
   }
-
   .edu-info h3 {
     margin: 0 0 0.15em 0;
     font-size: 0.97em;
     font-weight: 600;
     color: #1a1a1a;
   }
-
   .edu-info .institution {
     font-size: 0.88em;
     color: #666;
     margin-bottom: 0.3em;
   }
-
   .edu-meta {
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +55,140 @@ author_profile: true
     color: #888;
     margin-top: 0.3em;
   }
+
+  /* ── SOP Section ── */
+  .sop-section {
+    margin-top: 2.8em;
+    margin-bottom: 2em;
+  }
+  .sop-section-title {
+    font-size: 1.05em;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 1.4em;
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+  }
+  .sop-section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #e2e8f0;
+  }
+
+  .sop-timeline {
+    position: relative;
+    padding-left: 1.8em;
+  }
+  .sop-timeline::before {
+    content: '';
+    position: absolute;
+    left: 0.45em;
+    top: 0.4em;
+    bottom: 0.4em;
+    width: 2px;
+    background: linear-gradient(to bottom, #c0d4ed 0%, #e2e8f0 100%);
+    border-radius: 2px;
+  }
+
+  .sop-entry {
+    position: relative;
+    margin-bottom: 1.6em;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.1em 1.3em;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    border-left: 3px solid #dde8f5;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .sop-entry:hover {
+    border-left-color: #3a6fa8;
+    box-shadow: 0 3px 12px rgba(58,111,168,0.10);
+  }
+  .sop-entry::before {
+    content: '';
+    position: absolute;
+    left: -1.57em;
+    top: 1.15em;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #3a6fa8;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #c0d4ed;
+  }
+
+  .sop-entry-header {
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    margin-bottom: 0.55em;
+    flex-wrap: wrap;
+  }
+  .sop-era {
+    font-size: 0.68em;
+    font-weight: 700;
+    color: #3a6fa8;
+    border: 1px solid #c0d4ed;
+    padding: 0.12em 0.55em;
+    border-radius: 4px;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+  .sop-entry-title {
+    font-size: 0.92em;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+  }
+  .sop-entry p {
+    font-size: 0.87em;
+    color: #4a4a4a;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .sop-quote {
+    margin: 1.6em 0 1.8em;
+    padding: 1em 1.4em;
+    background: #f5f8fd;
+    border-left: 3px solid #3a6fa8;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.88em;
+    color: #3a5a80;
+    font-style: italic;
+    line-height: 1.65;
+  }
+  .sop-quote cite {
+    display: block;
+    margin-top: 0.4em;
+    font-size: 0.85em;
+    font-style: normal;
+    color: #888;
+    font-weight: 600;
+  }
+
+  .sop-hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 0.6em;
+  }
+  .hobby-tag {
+    font-size: 0.75em;
+    background: #eef4fb;
+    color: #3a6fa8;
+    border-radius: 20px;
+    padding: 0.22em 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
 </style>
+
+<!-- ══ Education Cards ══ -->
 
 <div class="edu-card">
   <a href="https://www.wisc.edu" target="_blank">
@@ -122,6 +248,70 @@ author_profile: true
       <span>85.50%</span>
       <span>2015</span>
     </div>
+  </div>
+</div>
+
+<!-- ══ Statement of Purpose ══ -->
+
+<div class="sop-section">
+
+  <div class="sop-section-title">✦ My Journey</div>
+
+  <div class="sop-quote">
+    "The only true wisdom is in knowing you know nothing."
+    <cite>— Socrates</cite>
+  </div>
+
+  <div class="sop-timeline">
+
+    <div class="sop-entry">
+      <div class="sop-entry-header">
+        <span class="sop-era">Early Spark</span>
+        <h4 class="sop-entry-title">From Video Games to Programming</h4>
+      </div>
+      <p>My fascination with technology began in childhood, initially limited to playing video games. That perspective shifted when my brother taught me to build a simple calculator in C++ — a hands-on experience that opened a new dimension of computers and ignited my passion for programming and problem-solving. This curiosity drove me to pursue an undergraduate degree in computer science and engineering. My analytical foundation was shaped early through UCMAS Abacus classes, earning a consolation prize at the 11th National Abacus &amp; Mental Arithmetic Competition (2011), and honing critical thinking through chess, Sudoku, and mental aptitude contests — reflected in a 95% score in my Secondary School Computer Science Examination.</p>
+    </div>
+
+    <div class="sop-entry">
+      <div class="sop-entry-header">
+        <span class="sop-era">Undergraduate · 2017–2021</span>
+        <h4 class="sop-entry-title">Amrita Vishwa Vidyapeetham — Curiosity in Action</h4>
+      </div>
+      <p>At one of India's top NAAC-accredited research universities, I broadened my horizons rapidly. At the Anokha Tech Fest "Be a Ninja" Cyber Forensics workshop by Cisco, my team won first place for designing a Smart Car Parking app with sensor-based reservations, CCTV integration, and OTP-based authentication. This sparked a passion for networking, leading me to earn the <strong>CCNA certification</strong> in Routing &amp; Switching and achieve A/A+ grades in Computer Networks coursework. During a summer internship at <strong>ONGC</strong> (India's largest crude oil producer), I built an Issue Tracker using PHP &amp; MySQL for their Intranet. I also developed an SEO analysis tool in Python using BeautifulSoup, recognized by NIIT for excellent performance in Programming with Python for Data Science.</p>
+    </div>
+
+    <div class="sop-entry">
+      <div class="sop-entry-header">
+        <span class="sop-era">Final Year · 2020–2021</span>
+        <h4 class="sop-entry-title">Deep Learning &amp; ASR — Going Deeper</h4>
+      </div>
+      <p>In my final year, I co-developed a <strong>gesture-based control system</strong> using a 3D ConvLSTM model under Dr. Rajathilagam B., achieving ~80% accuracy with minimal latency and addressing GPU starvation via the Gulpio package. Simultaneously, a course on Theory of Computation under Dr. Prakash P. made Finite State Machines click — as enjoyable as solving a game. This foundation led to my final-semester internship with <strong>Zoho ZLabs ASR R&amp;D</strong>, where I standardized audio formats, cleaned transcriptions, and expanded the benchmark dataset suite by 83%.</p>
+    </div>
+
+    <div class="sop-entry">
+      <div class="sop-entry-header">
+        <span class="sop-era">Industry · 2021–Present</span>
+        <h4 class="sop-entry-title">Zoho Corporation — From ASR to LLMs</h4>
+      </div>
+      <p>After graduating, I joined Zoho's ASR team full-time. Leveraging FSM knowledge, I integrated a <strong>Rule-Based Inverse Text Normalization (ITN)</strong> system into the ASR pipeline using Pynini — writing five grammar rules from scratch, enhancing eleven from NeMo, and building Finite State Transducers for string transformations including profanity redaction. I led a 4-member data collection team, contributed to a <strong>16% increase in training data</strong> (~18k hours), and built a Flask-based demo application for model inference. I then transitioned to the role of <strong>LLM Data Engineer</strong>, where I develop data curation tools, research open-source datasets and scholarly papers, optimize data quality and composition for instruction fine-tuning, and evaluate internal LLMs via supervised fine-tuning (SFT). This work has deepened my understanding of how datasets shape a model's learning and how subtle prompt variations profoundly impact LLM behavior.</p>
+    </div>
+
+    <div class="sop-entry">
+      <div class="sop-entry-header">
+        <span class="sop-era">Leadership &amp; Community</span>
+        <h4 class="sop-entry-title">Beyond the Classroom</h4>
+      </div>
+      <p>Leading the Public Relations department for Anokha 2020 honed my leadership and communication skills across colleges. Organizing the Amrita intercampus cultural fest <em>Sargamritam 2019</em> strengthened organizational abilities, and volunteering at Amritavarsham 66 reinforced my commitment to community service. Outside work, I channel creativity through digital arts, calligraphy, chess, and tennis — and as a committed animal welfare advocate, I care for stray dogs daily alongside my own pet.</p>
+      <div class="sop-hobbies">
+        <span class="hobby-tag">🎨 Digital Arts</span>
+        <span class="hobby-tag">✒️ Calligraphy</span>
+        <span class="hobby-tag">♟️ Chess</span>
+        <span class="hobby-tag">🎾 Tennis</span>
+        <span class="hobby-tag">🐕 Animal Welfare</span>
+        <span class="hobby-tag">🧩 Sudoku</span>
+      </div>
+    </div>
+
   </div>
 </div>
 
