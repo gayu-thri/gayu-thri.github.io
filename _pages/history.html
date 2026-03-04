@@ -29,8 +29,8 @@ author_profile: true
     display: inline-block;
     font-size: 0.72em;
     font-weight: 700;
-    color: #3a6fa8;
-    border: 1px solid #c0d4ed;
+    color: #555;
+    border: 1px solid #d0d0d0;
     padding: 0.15em 0.6em;
     border-radius: 4px;
     margin-bottom: 0.35em;
@@ -76,7 +76,7 @@ author_profile: true
     content: '';
     flex: 1;
     height: 1px;
-    background: #e2e8f0;
+    background: #e0e0e0;
   }
 
   .sop-timeline {
@@ -90,7 +90,7 @@ author_profile: true
     top: 0.4em;
     bottom: 0.4em;
     width: 2px;
-    background: linear-gradient(to bottom, #c0d4ed 0%, #e2e8f0 100%);
+    background: linear-gradient(to bottom, #d0d0d0 0%, #ebebeb 100%);
     border-radius: 2px;
   }
 
@@ -101,12 +101,12 @@ author_profile: true
     border-radius: 8px;
     padding: 1.1em 1.3em;
     box-shadow: 0 1px 6px rgba(0,0,0,0.06);
-    border-left: 3px solid #dde8f5;
+    border-left: 3px solid #e0e0e0;
     transition: border-color 0.2s, box-shadow 0.2s;
   }
   .sop-entry:hover {
-    border-left-color: #3a6fa8;
-    box-shadow: 0 3px 12px rgba(58,111,168,0.10);
+    border-left-color: #555;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.09);
   }
   .sop-entry::before {
     content: '';
@@ -116,9 +116,9 @@ author_profile: true
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #3a6fa8;
+    background: #666;
     border: 2px solid #fff;
-    box-shadow: 0 0 0 2px #c0d4ed;
+    box-shadow: 0 0 0 2px #d0d0d0;
   }
 
   .sop-entry-header {
@@ -131,8 +131,8 @@ author_profile: true
   .sop-era {
     font-size: 0.68em;
     font-weight: 700;
-    color: #3a6fa8;
-    border: 1px solid #c0d4ed;
+    color: #555;
+    border: 1px solid #d0d0d0;
     padding: 0.12em 0.55em;
     border-radius: 4px;
     letter-spacing: 0.03em;
@@ -154,11 +154,11 @@ author_profile: true
   .sop-quote {
     margin: 1.6em 0 1.8em;
     padding: 1em 1.4em;
-    background: #f5f8fd;
-    border-left: 3px solid #3a6fa8;
+    background: #f7f7f7;
+    border-left: 3px solid #aaa;
     border-radius: 0 6px 6px 0;
     font-size: 0.88em;
-    color: #3a5a80;
+    color: #555;
     font-style: italic;
     line-height: 1.65;
   }
@@ -179,8 +179,8 @@ author_profile: true
   }
   .hobby-tag {
     font-size: 0.75em;
-    background: #eef4fb;
-    color: #3a6fa8;
+    background: #f2f2f2;
+    color: #444;
     border-radius: 20px;
     padding: 0.22em 0.75em;
     font-weight: 600;
@@ -269,7 +269,7 @@ author_profile: true
         <span class="sop-era">Early Spark</span>
         <h4 class="sop-entry-title">From Video Games to Programming</h4>
       </div>
-      <p>My fascination with technology began in childhood, initially limited to playing video games. That perspective shifted when my brother taught me to build a simple calculator in C++ — a hands-on experience that opened a new dimension of computers and ignited my passion for programming and problem-solving. This curiosity drove me to pursue an undergraduate degree in computer science and engineering. My analytical foundation was shaped early through UCMAS Abacus classes, earning a consolation prize at the 11th National Abacus &amp; Mental Arithmetic Competition (2011), and honing critical thinking through chess, Sudoku, and mental aptitude contests — reflected in a 95% score in my Secondary School Computer Science Examination.</p>
+      <p>My fascination with technology began in childhood, initially limited to playing video games. That perspective shifted when my brother taught me to build a simple calculator in C++, a hands-on experience that opened a new dimension of computers and ignited my passion for programming and problem-solving. This curiosity drove me to pursue an undergraduate degree in computer science and engineering. My analytical foundation was shaped early through UCMAS Abacus classes, earning a consolation prize at the 11th National Abacus &amp; Mental Arithmetic Competition (2011), and honing critical thinking through chess, Sudoku, and mental aptitude contests, reflected in a 95% score in my Secondary School Computer Science Examination.</p>
     </div>
 
     <div class="sop-entry">
@@ -285,23 +285,31 @@ author_profile: true
         <span class="sop-era">Final Year · 2020–2021</span>
         <h4 class="sop-entry-title">Deep Learning &amp; ASR — Going Deeper</h4>
       </div>
-      <p>In my final year, I co-developed a <strong>gesture-based control system</strong> using a 3D ConvLSTM model under Dr. Rajathilagam B., achieving ~80% accuracy with minimal latency and addressing GPU starvation via the Gulpio package. Simultaneously, a course on Theory of Computation under Dr. Prakash P. made Finite State Machines click — as enjoyable as solving a game. This foundation led to my final-semester internship with <strong>Zoho ZLabs ASR R&amp;D</strong>, where I standardized audio formats, cleaned transcriptions, and expanded the benchmark dataset suite by 83%.</p>
+      <p>In my final year, I co-developed a <strong>gesture-based control system</strong> using a 3D ConvLSTM model under Dr. Rajathilagam B., achieving ~80% accuracy with minimal latency and addressing GPU starvation via the Gulpio package. Simultaneously, a course on Theory of Computation under Dr. Prakash P. made Finite State Machines click, as enjoyable as solving a game. This foundation led to my final-semester internship with <strong>Zoho ZLabs ASR R&amp;D</strong>, where I standardized audio formats, cleaned transcriptions, and expanded the benchmark dataset suite by 83%.</p>
     </div>
 
     <div class="sop-entry">
-      <div class="sop-entry-header">
-        <span class="sop-era">Industry · 2021–Present</span>
-        <h4 class="sop-entry-title">Zoho Corporation — From ASR to LLMs</h4>
-      </div>
-      <p>After graduating, I joined Zoho's ASR team full-time. Leveraging FSM knowledge, I integrated a <strong>Rule-Based Inverse Text Normalization (ITN)</strong> system into the ASR pipeline using Pynini — writing five grammar rules from scratch, enhancing eleven from NeMo, and building Finite State Transducers for string transformations including profanity redaction. I led a 4-member data collection team, contributed to a <strong>16% increase in training data</strong> (~18k hours), and built a Flask-based demo application for model inference. I then transitioned to the role of <strong>LLM Data Engineer</strong>, where I develop data curation tools, research open-source datasets and scholarly papers, optimize data quality and composition for instruction fine-tuning, and evaluate internal LLMs via supervised fine-tuning (SFT). This work has deepened my understanding of how datasets shape a model's learning and how subtle prompt variations profoundly impact LLM behavior.</p>
-    </div>
+  <div class="sop-entry-header">
+    <span class="sop-era">Industry · 2021–2023</span>
+    <h4 class="sop-entry-title">Zoho Corporation — ASR Engineer, ZLabs R&amp;D</h4>
+  </div>
+  <p>After completing my internship at Zoho Corporation, I secured a full-time role in the Automatic Speech Recognition (ASR) team at ZLabs, R&amp;D. I leveraged my understanding of FSMs to integrate a <strong>Rule-Based Inverse Text Normalization (ITN)</strong> system into the ASR pipeline to enhance output readability. Using Pynini, I wrote <strong>five grammar rules from scratch</strong> and leveraged eleven from NeMo with enhancements for our use cases, building <strong>Finite State Transducers (FST)</strong> for string transformations — including tasks like redacting profane words. I also led a <strong>4-member team</strong> to manually collect ITN data. In addition, I contributed to a <strong>16% increase in the training data suite (~18k hours)</strong> and built a Flask-based demo application to run ASR model inference. Beyond these contributions, I developed tools to streamline internal API communication and efficient dataset management, significantly improving cross-team collaboration and operational efficiency.</p>
+</div>
+
+<div class="sop-entry">
+  <div class="sop-entry-header">
+    <span class="sop-era">Industry · 2024–Present</span>
+    <h4 class="sop-entry-title">Zoho Corporation — LLM Data Engineer, ZLabs R&amp;D</h4>
+  </div>
+  <p>Currently, I work as a <strong>Large Language Models (LLM) Data Engineer</strong> at Zoho Corporation. This role is challenging, requiring extensive research, experimentation, and adaptability in the rapidly evolving field of LLMs. Understanding precise data requirements for instruction fine-tuning adds to the complexity. My work involves <strong>developing data curation tools</strong>, researching open-source datasets and scholarly papers, and optimizing data quality and composition based on experimental insights. Additionally, I evaluate model performance by <strong>supervised fine-tuning (SFT)</strong> of internal LLMs. This role has enhanced my understanding of how datasets shape a model's learning and how subtle prompt variations can profoundly impact LLMs — experiences that have ignited my passion for advancing AI research and exploring its transformative potential.</p>
+</div>
 
     <div class="sop-entry">
       <div class="sop-entry-header">
         <span class="sop-era">Leadership &amp; Community</span>
         <h4 class="sop-entry-title">Beyond the Classroom</h4>
       </div>
-      <p>Leading the Public Relations department for Anokha 2020 honed my leadership and communication skills across colleges. Organizing the Amrita intercampus cultural fest <em>Sargamritam 2019</em> strengthened organizational abilities, and volunteering at Amritavarsham 66 reinforced my commitment to community service. Outside work, I channel creativity through digital arts, calligraphy, chess, and tennis — and as a committed animal welfare advocate, I care for stray dogs daily alongside my own pet.</p>
+      <p>Leading the Public Relations department for Anokha 2020 honed my leadership and communication skills across colleges. Organizing the Amrita intercampus cultural fest <em>Sargamritam 2019</em> strengthened organizational abilities, and volunteering at Amritavarsham 66 reinforced my commitment to community service. Outside work, I channel creativity through digital arts, calligraphy, chess, and tennis. As an avid dog lover, committed to animal welfare, I regularly provide food for stray dogs and care for my own pet, fostering responsibility and empathy.</p>
       <div class="sop-hobbies">
         <span class="hobby-tag">🎨 Digital Arts</span>
         <span class="hobby-tag">✒️ Calligraphy</span>
