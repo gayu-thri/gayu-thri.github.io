@@ -1,0 +1,25 @@
+---
+layout: archive
+title: "Resume"
+permalink: /resume/
+author_profile: true
+---
+
+<h2>Resume</h2>
+
+<object
+  data="https://github.com/gayu-thri/gayu-thri.github.io/blob/master/_pages/Gayathri_Ethiraj_Resume.pdf"
+  type="application/pdf"
+  width="100%"
+  height="100%"
+>
+  <p>
+    Your browser does not support PDFs. [Download the
+    PDF](https://example.com/test.pdf) .
+  </p>
+</object>
+
+{% for post in site.resume %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
+
