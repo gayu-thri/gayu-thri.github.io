@@ -9,12 +9,12 @@ redirect_from:
 ---
 
 <style>
-  body { color: #e6edf3; }
+  body { color: #2c2c2c; }
 
   .about-intro {
     font-size: 0.96em;
     line-height: 1.9;
-    color: #c9d1d9;
+    color: #333;
   }
 
   .section-label {
@@ -22,7 +22,7 @@ redirect_from:
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #8b949e;
+    color: #999;
     margin-top: 2.2em;
     margin-bottom: 0.9em;
   }
@@ -35,22 +35,16 @@ redirect_from:
   }
 
   .focus-card {
-    background: #161b22;
-    border: 1px solid #30363d;
+    background: #fafafa;
     border-radius: 8px;
     padding: 1em 1.2em;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-    transition: border-color 0.2s;
-  }
-
-  .focus-card:hover {
-    border-color: #58a6ff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
   }
 
   .focus-card .fc-title {
     font-size: 0.82em;
     font-weight: 700;
-    color: #e6edf3;
+    color: #1a1a1a;
     margin-bottom: 0.4em;
     letter-spacing: 0.01em;
   }
@@ -58,7 +52,7 @@ redirect_from:
   .focus-card .fc-body {
     font-size: 0.88em;
     line-height: 1.7;
-    color: #8b949e;
+    color: #555;
   }
 
   .tag-row {
@@ -71,9 +65,8 @@ redirect_from:
 
   .tag {
     font-size: 0.78em;
-    color: #8b949e;
-    background: #21262d;
-    border: 1px solid #30363d;
+    color: #555;
+    background: #f0f0f0;
     padding: 0.2em 0.6em;
     border-radius: 4px;
   }
@@ -81,11 +74,11 @@ redirect_from:
   .contact-block {
     font-size: 0.9em;
     line-height: 2;
-    color: #c9d1d9;
+    color: #444;
   }
 
   .contact-block a {
-    color: #58a6ff;
+    color: #3a6fa8;
     text-decoration: underline;
     text-underline-offset: 2px;
   }
@@ -93,11 +86,11 @@ redirect_from:
   .beyond-block {
     font-size: 0.93em;
     line-height: 1.8;
-    color: #c9d1d9;
+    color: #444;
   }
 
   .beyond-block a {
-    color: #58a6ff;
+    color: #3a6fa8;
     text-decoration: underline;
     text-underline-offset: 2px;
   }
