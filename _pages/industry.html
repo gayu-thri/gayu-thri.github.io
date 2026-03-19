@@ -6,14 +6,20 @@ author_profile: true
 ---
 
 <style>
-  body { color: #2c2c2c; }
+  body { color: #e6edf3; }
 
   .exp-card {
-    background: #fff;
+    background: #161b22;
+    border: 1px solid #30363d;
     border-radius: 8px;
     padding: 1.3em 1.5em;
     margin-bottom: 1.2em;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+    box-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    transition: border-color 0.2s;
+  }
+
+  .exp-card:hover {
+    border-color: #58a6ff;
   }
 
   .flex-header {
@@ -33,25 +39,25 @@ author_profile: true
     margin: 0 0 0.1em 0;
     font-size: 1em;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #e6edf3;
   }
 
   .role-text {
     font-size: 0.88em;
     font-weight: 600;
-    color: #3a6fa8;
+    color: #58a6ff;
     margin-bottom: 0.1em;
   }
 
   .date-text {
     font-size: 0.82em;
-    color: #aaa;
+    color: #6e7681;
   }
 
   .body-text {
     font-size: 0.93em;
     line-height: 1.75;
-    color: #444;
+    color: #c9d1d9;
     margin: 0.6em 0 0.5em 0;
   }
 
@@ -65,26 +71,27 @@ author_profile: true
 
   .tag {
     font-size: 0.78em;
-    color: #666;
-    background: #f0f0f0;
+    color: #8b949e;
+    background: #21262d;
+    border: 1px solid #30363d;
     padding: 0.2em 0.6em;
     border-radius: 4px;
   }
 
   .meta-row {
     font-size: 0.83em;
-    color: #888;
+    color: #6e7681;
     margin-top: 0.4em;
     line-height: 1.7;
   }
 
   .meta-row a {
-    color: #555;
+    color: #8b949e;
     text-decoration: underline;
     text-underline-offset: 2px;
   }
 
-  .meta-row a:hover { color: #111; }
+  .meta-row a:hover { color: #e6edf3; }
 
   .links-row {
     margin-top: 0.7em;
@@ -95,12 +102,12 @@ author_profile: true
 
   .links-row a {
     font-size: 0.85em;
-    color: #3a6fa8;
+    color: #58a6ff;
     text-decoration: underline;
     text-underline-offset: 2px;
   }
 
-  .links-row a:hover { color: #1a3f6f; }
+  .links-row a:hover { color: #79c0ff; }
 </style>
 
 <!-- Zoho LLM -->
