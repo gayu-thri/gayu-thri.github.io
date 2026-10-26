@@ -101,15 +101,15 @@ redirect_from:
 </style>
 
 <p class="about-intro">
-  I'm a Master's student in Data Science at <strong>UW–Madison</strong> with <strong>4+ years</strong> of experience as an AI Engineer at <strong>Zoho Corporation</strong>, building production systems across Large Language Models (LLMs) and Automatic Speech Recognition (ASR). I enjoy the full arc, from raw data to deployed models, and care deeply about building tools that are efficient, reliable, and useful to real teams.
+  I'm a Master's student in Data Science at <strong>UW–Madison</strong> with <strong>4+ years</strong> of experience as an AI Engineer at <strong>Zoho Corporation</strong>, building production systems across Large Language Models (LLMs) and Automatic Speech Recognition (ASR). Most recently I interned at <strong>EQSeer</strong>, building a multimodal RAG chatbot for an industrial AI knowledge base. I enjoy the full arc, from raw data to deployed models, and care deeply about building tools that are efficient, reliable, and useful to real teams.
 </p>
 
 <p class="section-label">What I Work On</p>
 
 <div class="focus-grid">
   <div class="focus-card">
-    <div class="fc-title">LLMs & Data Engineering</div>
-    <div class="fc-body">HuggingFace APIs, large-scale dataset processing and categorisation pipelines. Translation pipelines generating hundreds of billions of Indic tokens.</div>
+    <div class="fc-title">LLMs & Multimodal RAG</div>
+    <div class="fc-body">Multimodal RAG pipelines ingesting video, audio, and images. Large-scale dataset processing and translation pipelines generating hundreds of billions of Indic tokens.</div>
   </div>
   <div class="focus-card">
     <div class="fc-title">Automatic Speech Recognition</div>
@@ -121,7 +121,7 @@ redirect_from:
   </div>
   <div class="focus-card">
     <div class="fc-title">Currently at UW–Madison</div>
-    <div class="fc-body">Graduate coursework in algorithms, statistics, and ML. Actively seeking <strong>Summer 2026 AI/ML internship</strong> opportunities.</div>
+    <div class="fc-body">Graduate coursework in deep learning, statistics, and ML. Actively seeking <strong>full-time 2027 AI/ML roles</strong> in machine learning and deep learning.</div>
   </div>
 </div>
 
@@ -131,21 +131,21 @@ redirect_from:
   <span class="tag">Python</span>
   <span class="tag">PyTorch</span>
   <span class="tag">HuggingFace</span>
+  <span class="tag">PEFT / LoRA</span>
   <span class="tag">NVIDIA NeMo</span>
   <span class="tag">Pynini</span>
-  <span class="tag">Streamlit</span>
-  <span class="tag">Flask</span>
   <span class="tag">FastAPI</span>
-  <span class="tag">DVC</span>
+  <span class="tag">Qdrant</span>
+  <span class="tag">Docker</span>
   <span class="tag">PyTorch Lightning</span>
   <span class="tag">Whisper</span>
   <span class="tag">NLP</span>
   <span class="tag">ASR</span>
   <span class="tag">LLM</span>
+  <span class="tag">Multimodal RAG</span>
   <span class="tag">Data Engineering</span>
-  <span class="tag">RESTful APIs</span>
-  <span class="tag">OAuth</span>
   <span class="tag">Linux</span>
+  <span class="tag">Slurm</span>
 </div>
 
 

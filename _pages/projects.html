@@ -100,26 +100,60 @@ author_profile: true
   </a>
   <div class="uni-info">
     <strong>M.S. in Data Science</strong><br>
-    University of Wisconsin–Madison &nbsp;·&nbsp; 2025–2026 (Expected)
+    University of Wisconsin–Madison &nbsp;·&nbsp; 2025–2027 (Expected May 2027)
   </div>
 </div>
 
 <div class="project-card">
-  <h3>LLM Fine-Tuning for Constraint-Following at 1B Scale</h3>
-  <p class="body-text">Fine-tuning 1B-parameter language models — Llama 3.2, Gemma 3, Qwen 2.5, and SmolLM2 — on RECAST-30K and Tulu datasets to improve multi-constraint instruction following. The project systematically compares LoRA (low-rank adaptation) vs. full fine-tuning strategies and evaluates model performance on CSR and IFEval benchmarks to measure how well models adhere to complex, multi-layered instructions. Course project for STAT 453, Spring 2026 (ongoing).</p>
+  <h3><a href="https://github.com/gayu-thri/icu-agent" target="_blank">Agentic ICU Clinical Assistant</a></h3>
+  <p class="body-text">Built a clinical decision-support assistant that flags deteriorating ICU patients in natural language. A Claude agent orchestrates two retrieval paths: an MCP server that runs SQL queries over structured patient vitals, and a LangChain RAG pipeline over clinical guidelines stored in ChromaDB. Evaluated with an LLM-judged harness measuring precision, recall, and F1; deployable on Anthropic API or AWS Bedrock. May 2026 (ongoing).</p>
+  <div class="tag-row">
+    <span class="tag">Claude API</span>
+    <span class="tag">MCP</span>
+    <span class="tag">LangChain</span>
+    <span class="tag">ChromaDB</span>
+    <span class="tag">AWS Bedrock</span>
+    <span class="tag">RAG</span>
+  </div>
+  <div class="links-row">
+    <a href="https://github.com/gayu-thri/icu-agent" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3><a href="https://github.com/gayu-thri/cs639-final-project" target="_blank">Strategy-Selection Steering in Chain-of-Thought Reasoning</a></h3>
+  <p class="body-text">Steered DeepSeek-R1-Distill-Qwen-7B away from low-confidence reasoning strategies by probing hidden states at paragraph boundaries in middle-late layers and applying mean-difference steering vectors. Boosted accuracy from ~50% to ~58% on AIME (probe AUC ~0.87). CS 639, Spring 2026.</p>
+  <div class="tag-row">
+    <span class="tag">PyTorch</span>
+    <span class="tag">Activation Engineering</span>
+    <span class="tag">DeepSeek-R1</span>
+    <span class="tag">Chain-of-Thought</span>
+    <span class="tag">Reasoning</span>
+  </div>
+  <div class="links-row">
+    <a href="https://github.com/gayu-thri/cs639-final-project" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <h3><a href="https://github.com/gayu-thri/stat-453-constraint-based-llm" target="_blank">LLM Fine-Tuning for Constraint-Following at 1B Scale</a></h3>
+  <p class="body-text">Fine-tuned Llama 3.2 1B with LoRA (r=8, 0.007% of params) on RECAST-30K for multi-constraint instruction-following. LoRA lifted Hard CSR from ~28.9% to ~80.0% (5-fold CV, &lt;1% fold variance), substantially outperforming full fine-tuning (~33.2%, which suffered catastrophic forgetting). Built a 9-stage preprocessing pipeline with SHA-256 deduplication and MinHash LSH near-deduplication (Jaccard 0.85), expanding 30K → 90K examples via back-translation and lexical augmentation. STAT 453, Spring 2026.</p>
   <div class="tag-row">
     <span class="tag">PyTorch</span>
     <span class="tag">LoRA</span>
     <span class="tag">HuggingFace</span>
     <span class="tag">RECAST-30K</span>
-    <span class="tag">Tulu</span>
+    <span class="tag">MinHash LSH</span>
     <span class="tag">LLM Fine-Tuning</span>
+  </div>
+  <div class="links-row">
+    <a href="https://github.com/gayu-thri/stat-453-constraint-based-llm" target="_blank">GitHub</a>
   </div>
 </div>
 
 <div class="project-card">
   <h3>Road Infrastructure Reporting System</h3>
-  <p class="body-text">Built an end-to-end civic reporting pipeline at the MadData 2026 Hackathon. Fine-tuned EfficientNetV2-S on a custom 7,200-image dataset achieving 96.8% test accuracy across 6 road defect classes (potholes, cracks, faded markings, etc.). Integrated a confidence-gated OpenAI API enrichment step that generates detailed complaint descriptions and automatically routes reports to the appropriate city department based on defect classification.</p>
+  <p class="body-text">Built an end-to-end civic reporting pipeline at MadData 2026 Hackathon. Fine-tuned EfficientNetV2-S on a custom 7,200-image dataset achieving 96.8% test accuracy across 6 road defect classes (potholes, cracks, faded markings, etc.). Integrated a confidence-gated OpenAI API enrichment step that generates detailed complaint descriptions and automatically routes reports to the appropriate city department based on defect classification.</p>
   <div class="tag-row">
     <span class="tag">EfficientNetV2-S</span>
     <span class="tag">OpenAI API</span>
